@@ -1,0 +1,14 @@
+uuid: bc5e0fca-13e0-4666-b67d-f01c5edbc429
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - baskaran.b@congruentindia.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

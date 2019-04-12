@@ -1,0 +1,203 @@
+{
+  "name": "drupal-composer/drupal-project",
+  "description": "Project template for Drupal 8 projects with composer",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "",
+      "role": ""
+    }
+  ],
+  "repositories": {
+    "0": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "sticky": {
+      "type": "package",
+      "package": {
+        "name": "garand/sticky",
+        "version": "1.0.4",
+        "type": "component",
+        "dist": {
+          "url": "https://github.com/garand/sticky/zipball/master",
+          "type": "zip"
+        }
+      }
+    },
+    "slick": {
+      "type": "package",
+      "package": {
+        "name": "kenwheeler/slick",
+        "version": "1.8.1",
+        "type": "component",
+        "dist": {
+          "url": "https://github.com/kenwheeler/slick/zipball/master",
+          "type": "zip"
+        }
+      }
+    }
+  },
+  "require": {
+    "components/highlightjs": "^9.8",
+    "composer/installers": "^1.0.20",
+    "cweagans/composer-patches": "~1.0",
+    "davehensley/highcharts": "^4.2",
+    "desandro/imagesloaded": "^4.1",
+    "drupal-composer/drupal-scaffold": "^2.0.1",
+    "drupal/admin_toolbar": "^1",
+    "drupal/adminimal_admin_toolbar": "~1",
+    "drupal/adminimal_theme": "^1.4",
+    "drupal/back_to_top": "^1.0",
+    "drupal/block_visibility_groups": "^1.3",
+    "drupal/bootstrap": "^3.13",
+    "drupal/cdn": "^3.1",
+    "drupal/components": "^1.0",
+    "drupal/config_installer": "1.x-dev",
+    "drupal/console": "~1.0",
+    "drupal/core": "^8.6.0",
+    "drupal/crop": "1.x",
+    "drupal/devel": "^2.0",
+    "drupal/ds": "^3.1",
+    "drupal/editor_advanced_link": "^1.4",
+    "drupal/embed": "^1.0",
+    "drupal/entity_browser": "^2.0",
+    "drupal/entity_embed": "^1.0",
+    "drupal/entity_reference_revisions": "^1.2",
+    "drupal/eu_cookie_compliance": "^1.0",
+    "drupal/field_formatter_class": "^1.0",
+    "drupal/field_group": "~1@RC",
+    "drupal/file_entity": "^2",
+    "drupal/file_mdm": "^1.1",
+    "drupal/geolocation": "^1.11",
+    "drupal/imagemagick": "^2.2",
+    "drupal/inline_entity_form": "^1",
+    "drupal/jdrupal": "^1.3",
+    "drupal/jsonapi": "^2.0",
+    "drupal/link_attributes": "^1.5",
+    "drupal/linked_field": "^1.1",
+    "drupal/maxlength": "^1",
+    "drupal/media_entity_generic": "^1.0",
+    "drupal/memcache": "^2.0",
+    "drupal/metatag": "^1.7",
+    "drupal/metatag_routes": "^1.0",
+    "drupal/migrate_file": "^1.1",
+    "drupal/migrate_plus": "^4.0",
+    "drupal/migrate_source_csv": "^2.2",
+    "drupal/migrate_tools": "^4.0",
+    "drupal/paragraphs": "1.x-dev",
+    "drupal/pathauto": "1.x-dev",
+    "drupal/recaptcha": "^2.2",
+    "drupal/restui": "^1.16",
+    "drupal/search_api": "^1.10",
+    "drupal/search_api_sorts": "1.x-dev",
+    "drupal/search_autocomplete": "1.x-dev",
+    "drupal/semanticviews": "^2.2",
+    "drupal/simple_block": "1.0-beta1",
+    "drupal/slick_paragraphs": "^1.0@RC",
+    "drupal/sticky": "^1.1",
+    "drupal/switch_page_theme": "^1.0",
+    "drupal/token": "^1.5",
+    "drupal/twig_field_value": "^1.1",
+    "drupal/views_data_export": "^1.0",
+    "drupal/views_field_formatter": "^1.9",
+    "drupal/views_row_insert": "^1.2",
+    "drupal/viewsreference": "^1.4",
+    "drupal/webform": "5.x-dev",
+    "drupal/weight": "^3.0",
+    "drupal/yearonly": "^1.3",
+    "drush/drush": "^8.0",
+    "garand/sticky": "1.0.4",
+    "kenwheeler/slick": "^1.8",
+    "league/iso3166": "^2.1",
+    "oomphinc/composer-installers-extender": "^1.1"
+  },
+  "require-dev": {
+    "behat/mink": "~1.7",
+    "behat/mink-goutte-driver": "~1.2",
+    "drupal/coder": "^3.1",
+    "drupal/drupal-driver": "dev-master",
+    "drupal/drupal-extension": "*",
+    "drush-ops/behat-drush-endpoint": "*",
+    "jcalderonzumba/gastonjs": "~1.0.2",
+    "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+    "mikey179/vfsStream": "~1.2",
+    "phpunit/phpunit": "~4.8",
+    "symfony/css-selector": "~2.8",
+    "symfony/stopwatch": "2.4.x"
+  },
+  "conflict": {
+    "drupal/drupal": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "classmap": [
+      "scripts/composer/ScriptHandler.php"
+    ]
+  },
+  "scripts": {
+    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "post-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ],
+    "post-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ]
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "discard-changes": true
+  },
+  "extra": {
+    "installer-types": [
+        "library",
+        "component"
+    ],
+    "installer-paths": {
+        "web/core": [
+            "type:drupal-core"
+        ],
+        "web/modules/contrib/{$name}": [
+            "type:drupal-module"
+        ],
+        "web/profiles/contrib/{$name}": [
+            "type:drupal-profile"
+        ],
+        "web/themes/contrib/{$name}": [
+            "type:drupal-theme"
+        ],
+        "drush/contrib/{$name}": [
+            "type:drupal-drush"
+        ],
+        "web/libraries/highlight": [
+            "components/highlightjs"
+        ],
+        "web/libraries/highcharts": [
+            "davehensley/highcharts"
+        ],
+        "web/libraries/{$name}": [
+            "type:component"
+        ]
+    },
+    "patches": {
+      "drupal/embed": {
+        "Allow site-builders to use a non-managed file as button icon.": "https://www.drupal.org/files/issues/allow-non-managed-button-icon-files-2824110-1.patch"
+      },
+      "simpleweb/silverpopphp": {
+        "Remove invalid argument in removeContact": "patches/silverpop-remove-contact.patch"
+      },
+      "drupal/devel": {
+        "Protected property issues": "https://www.drupal.org/files/issues/devel.ksm_.2857361.18.patch"
+      },
+      "drupal/simple_oauth": {
+        "Bearer token access does not work in Drupal 8.5.x": "web/patches/simple_oauth/simple_oauth-fix-bearer-token-access-2957081-10.diff"
+      }
+    }
+  }
+}

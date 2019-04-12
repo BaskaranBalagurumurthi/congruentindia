@@ -1,0 +1,38 @@
+version: '2.2'
+
+services:
+
+  drupal:
+    build: ./
+    image: drupal8-interactives:latest
+    container_name: interactives_drupal
+    depends_on:
+      - mysql
+    links:
+      - mysql:mysql
+    # If we need to have cfr-web up together with Interactives,
+    # cfr-web uses port 3000 so no conflict here.
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www
+      - ./etc:/mnt/etc
+
+  mysql:
+    image: mysql:5.6
+    container_name: interactives_mysql
+    # If we need to have cfr-web up together with Interactives,
+    # to avoid conflicts with cfr-web the port is changed in the host.
+    ports:
+     - "2306:3306"
+    command: --max-allowed-packet=67108864
+    environment:
+      MYSQL_ROOT_PASSWORD: "cit-interactives"
+    volumes:
+      - mysql-5.6-data:/var/lib/mysql
+      - mysql-5.6-conf:/etc/mysql
+      - ./etc/mysql:/etc/mysql/conf.d
+
+volumes:
+  mysql-5.6-data:
+  mysql-5.6-conf:
