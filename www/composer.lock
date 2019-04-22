@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d93d973dc9d7db6487895d5f45de33cb",
+    "content-hash": "a07fe50976cc0634e749a3bc2342bb33",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6266,11 +6266,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "dev-5.x",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "c39e9b279248eae358017ff20bff0447e5e67850"
+                "reference": "8.x-5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.2.zip",
+                "reference": "8.x-5.2",
+                "shasum": "44e67c377e156f7f8d6f26bba43240dfa1885637"
             },
             "require": {
                 "drupal/core": "*"
@@ -6283,7 +6289,6 @@
                 "drupal/jsonapi": "~2.0",
                 "drupal/mailsystem": "~4.0",
                 "drupal/select2": "~1.1",
-                "drupal/smtp": "~1.0",
                 "drupal/telephone_validation": "^2.2",
                 "drupal/token": "~1.3",
                 "drupal/webform_access": "*",
@@ -6297,11 +6302,11 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.2+43-dev",
-                    "datestamp": "1555710481",
+                    "version": "8.x-5.2",
+                    "datestamp": "1553801966",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -6366,8 +6371,7 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
-            },
-            "time": "2019-04-20T02:27:08+00:00"
+            }
         },
         {
             "name": "drupal/weight",
@@ -8725,7 +8729,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -12079,7 +12083,6 @@
         "drupal/search_api_sorts": 20,
         "drupal/search_autocomplete": 20,
         "drupal/slick_paragraphs": 5,
-        "drupal/webform": 20,
         "drupal/drupal-driver": 20
     },
     "prefer-stable": true,
