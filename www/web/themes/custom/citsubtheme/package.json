@@ -1,5 +1,5 @@
 {
-    "name": "barrio_born_sass",
+    "name": "barrio_cit_sass",
     "version": "8.4.1",
     "description": "Barrio Born SASS implementation",
     "main": "index.js",
@@ -15,8 +15,8 @@
     "author": "@hatuhay",
     "license": "MIT",
     "dependencies": {
-        "bootstrap": "~4.0.0",
-        "jquery": "^1.9.1",
+        "bootstrap": "~4.3.1",
+        "jquery": "^3.0.0",
         "popper.js": "^1.14.4"
     },
     "devDependencies": {
