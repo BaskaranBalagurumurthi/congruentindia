@@ -1,0 +1,22 @@
+uuid: a65e6c4a-0dc3-4dc1-94bb-af3a882012e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - citsubtheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: citsubtheme_messages
+theme: citsubtheme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

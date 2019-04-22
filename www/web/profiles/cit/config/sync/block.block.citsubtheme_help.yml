@@ -1,0 +1,22 @@
+uuid: 1f4d68ac-1a24-4f03-9e9c-4c8e30941446
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - citsubtheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: citsubtheme_help
+theme: citsubtheme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

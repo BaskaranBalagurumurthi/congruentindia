@@ -1,0 +1,22 @@
+uuid: 6f81ddbb-49cf-4cfa-bf0f-6255113f8105
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - citsubtheme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: citsubtheme_powered
+theme: citsubtheme
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 310087b9-25aa-4ec6-b8f3-e4fd0edb601b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - citsubtheme
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: citsubtheme_search
+theme: citsubtheme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

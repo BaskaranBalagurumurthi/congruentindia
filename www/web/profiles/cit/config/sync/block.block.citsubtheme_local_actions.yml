@@ -1,0 +1,20 @@
+uuid: e3d1c1af-df80-4012-939b-4880f5246beb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - citsubtheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: citsubtheme_local_actions
+theme: citsubtheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
