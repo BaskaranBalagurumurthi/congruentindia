@@ -46,6 +46,27 @@ RUN echo "alias ll='ls -alF'" >> /root/.bashrc
 
 WORKDIR /var/www/web
 
+COPY ./etc/package.json  /var/www/
+
+#
+# SEE installing node:
+# https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+#
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash
+RUN apt-get update
+# RUN apt-get install -y build-essential
+RUN apt-get install -y nodejs
+RUN apt-get install -y npm
+RUN cd /var/www/
+RUN npm install -g docker
+RUN cd ../..
+# RUN cd usr/bin; ln -s nodejs node; cd ../..
+
+#
+# Install gulp
+#
+RUN npm install -g gulp
+
 # Add a custom project's entrypoint.
 # Creates empty database to install interactives for the first time if needed.
 COPY ./etc/entrypoint.sh /entrypoint.sh
