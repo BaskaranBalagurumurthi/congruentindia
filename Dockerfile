@@ -67,6 +67,14 @@ RUN cd ../..
 #
 RUN npm install -g gulp
 
+#
+#Install compass
+#
+RUN apt-get install -y ruby-full && \
+    gem install sass && \
+    gem install compass && \
+    gem install less
+
 # Add a custom project's entrypoint.
 # Creates empty database to install interactives for the first time if needed.
 COPY ./etc/entrypoint.sh /entrypoint.sh
