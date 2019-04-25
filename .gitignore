@@ -29,6 +29,9 @@ settings.local.php
 npm-debug.log
 /nbproject/private/
 
+# Ignore node_modules for gulp
+www/web/themes/custom/citsubtheme/node_modules
+
 # www/web/sites/development.services.yml
 # www/web/sites/example.settings.local.php
 # www/web/sites/example.sites.php
