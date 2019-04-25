@@ -1,7 +1,7 @@
 {
     "name": "barrio_cit_sass",
-    "version": "8.4.1",
-    "description": "Barrio Born SASS implementation",
+    "version": "1.0.0",
+    "description": "Barrio CIT SASS implementation",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,8 @@
     "author": "@hatuhay",
     "license": "MIT",
     "dependencies": {
-        "bootstrap": "~4.3.1",
-        "jquery": "^3.0.0",
+        "bootstrap": "~4.0.0",
+        "jquery": "^1.9.1",
         "popper.js": "^1.14.4"
     },
     "devDependencies": {
