@@ -1,0 +1,28 @@
+/* TYPOGRAPHY */
+
+// Fonts
+//
+$font-family-sans-serif: Helvetica, sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: .875rem;
+$font-size-xs: .75rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+
+$h1-font-size:                $font-size-base * 3;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+h1, .h1 { font-size: $h1-font-size; font-weight: $font-weight-bold;}
+h2, .h2 { font-size: $h2-font-size; }
+h3, .h3 { font-size: $h3-font-size; }
+h4, .h4 { font-size: $h4-font-size; }
+h5, .h5 { font-size: $h5-font-size; }
+h6, .h6 { font-size: $h6-font-size; }

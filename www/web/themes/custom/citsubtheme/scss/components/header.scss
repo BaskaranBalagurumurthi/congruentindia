@@ -1,0 +1,43 @@
+/* ------------------ Header ------------------ */
+
+#navbar-top {
+    padding: 0 1rem;
+}
+
+#navbar-top.navbar-dark .nav-link:hover,
+#navbar-top.navbar-dark .nav-link:focus {
+    color: green
+}
+
+#navbar-top.navbar-dark .nav-link {
+    color: red
+}
+
+#navbar-top.navbar-light .nav-link:hover,
+#navbar-top.navbar-light .nav-link:focus {
+    color: blue
+}
+
+#navbar-top.navbar-light .nav-link {
+    color: orange
+}
+
+.navbar-brand .site-logo {
+    margin-right: 1rem;
+}
+
+@media (max-width: 33.9em) {
+    .navbar-toggleable-xs .navbar-nav .nav-item+.nav-item,
+    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+        margin-left: 0;
+        float: none;
+    }
+}
+
+@media (max-width: 47.9em) {
+    .navbar-toggleable-sm .navbar-nav .nav-item+.nav-item,
+    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+        margin-left: 0;
+        float: none;
+    }
+}

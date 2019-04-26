@@ -1,0 +1,18 @@
+/* IMPORTS */
+
+// variables
+@import "variables";
+
+//bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// barrio
+@import "barrio";
+
+// typography
+@import "typography";
+
+// mixins
+@import "mixins";
+
+@import "font-awesome.scss";

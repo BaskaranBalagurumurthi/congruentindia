@@ -1,0 +1,72 @@
+/* VARIABLES */
+
+// colors
+$primary-shade: #c03;
+$primary-light: lighten($primary-shade, 37%);
+$primary-dark: darken($primary-shade, 12%);
+$primary-accent-border: #a8002a;
+$accent-shade: #37383b;
+$accent-light: lighten($accent-shade, 37%);
+$accent-dark: darken($accent-shade, 12%);
+$off-black: #222;
+$muted-black: #2b363c;
+
+// Reassign color vars to semantic color scheme
+$red: #c03;
+$yellow: #ffc107;
+$green: #28a745;
+$cyan: #17a2b8;
+$white: #FFFFFF;
+$gray-100: #f8f9fa !default;
+$gray-800: #343a40 !default;
+$off-gray: #efefef;
+$gray-underline: #dedede;
+$light-gray: #adb2b9;
+$med-gray: #6A6F73;
+
+$theme-colors: ( primary: $accent-shade, secondary: $primary-shade, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
+
+$brand-primary: $accent-shade;
+//$brand-success: $green;
+//$brand-info: $teal;
+//$brand-warning: $orange;
+//$brand-danger: $red;
+$brand-inverse: $primary-shade;
+
+// Body
+//
+$body-bg: $white;
+//$body-color: $gray-dark;
+$inverse-bg: $primary-shade;
+//$inverse-color: $gray-lighter;
+
+
+// Links
+//
+// Style anchor elements.
+$link-color: $accent-shade;
+$link-decoration: none;
+$link-hover-color: $accent-dark;
+$link-hover-decoration: underline;
+
+// Comments
+$comment-spacer-x: 1.25em;
+$comment-spacer-y: 1.25em;
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 1px,
+  md: 2px,
+  lg: 3px,
+  xl: 1200px
+);
+
+
+$container-max-widths: (
+  xs: 1196px,
+  sm: 1197px,
+  md: 1198px,
+  lg: 1199px,
+  xl: 1200px
+);
