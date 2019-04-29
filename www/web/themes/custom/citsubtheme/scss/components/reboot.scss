@@ -54,17 +54,30 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 // 3. Set an explicit initial text-align value so that we can later use the
 //    the `inherit` value on things like `<th>` elements.
 
+$font-family-sans-serif: 'Open Sans',Arial;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: .9375rem; // 15px
+$font-size-lg: 1.25rem;
+$font-size-sm: .875rem;
+$font-size-xs: .75rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+
+
 body {
-  margin: 0; // 1
   font-family: $font-family-base;
   font-size: $font-size-base;
-  font-weight: $font-weight-base;
-  line-height: $line-height-base;
-  color: $body-color;
-  text-align: left; // 3
-  background-color: $body-bg; // 2
+  line-height: 1.5;
+  color: $quarter_black;
+  background-color: $white;
+  margin: 0;
+  padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
 // This prevents an unwanted focus outline from appearing around elements that
 // might still respond to pointer events.

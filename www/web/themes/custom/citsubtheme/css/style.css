@@ -7996,14 +7996,16 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: "Open Sans", Arial;
+  font-size: 0.9375rem;
   line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #FFFFFF; }
+  color: #333;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8343,7 +8345,7 @@ nav.tabs {
 .ui-dialog input,
 .ui-dialog select,
 .ui-dialog textarea {
-  font-size: 1rem; }
+  font-size: 0.9375rem; }
 
 .ui-dialog .button {
   background-color: #fff;
@@ -8355,7 +8357,7 @@ nav.tabs {
   border-right-color: #d2d2d2;
   color: #3a3a3a;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: normal;
   text-align: center;
   padding: 0.250em 1.063em;
@@ -8554,26 +8556,6 @@ nav.tabs {
 .views-ui-display-tab-actions .dropbutton .form-submit:hover,
 .views-ui-display-tab-actions .dropbutton .form-submit:focus {
   color: #37383b; }
-
-/* TYPOGRAPHY */
-h1, .h1 {
-  font-size: 3rem;
-  font-weight: bold; }
-
-h2, .h2 {
-  font-size: 2rem; }
-
-h3, .h3 {
-  font-size: 1.75rem; }
-
-h4, .h4 {
-  font-size: 1.5rem; }
-
-h5, .h5 {
-  font-size: 1.25rem; }
-
-h6, .h6 {
-  font-size: 1rem; }
 
 /* MIXINS */
 .btn-primary a {
