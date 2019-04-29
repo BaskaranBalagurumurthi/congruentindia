@@ -1,6 +1,6 @@
 uuid: 09ecfdfe-782a-448a-8ab8-77fa6821b37f
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: citsubtheme_powered
 theme: citsubtheme
 region: footer_fifth
-weight: 10
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:
