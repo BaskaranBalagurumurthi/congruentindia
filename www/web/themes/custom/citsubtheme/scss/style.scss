@@ -25,8 +25,18 @@ a {
     background: $primary-shade !important;
 }
 
-.site-footer {
-    // background: $accent-shade !important;
+.navbar-brand {
+    background: url('../images/top-banner-new-sprites.png');
+    background-position: 0px 0px;
+    width: 295px;
+    height: 61px;
+}
+
+.partners-logo {
+    background: url('../images/top-banner-new-sprites.png');
+    background-position: -160px -85px;
+    width: 291px;
+    height: 55px;
 }
 
 .menu--main li a {

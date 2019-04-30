@@ -70,6 +70,24 @@
 <div id="page-wrapper">
   <div id="page">
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
+    <div class="container">
+      <div class="col_header">
+        <div class="top-pattern d-top">
+            <div style="position: relative; margin: 0 auto; width: 100%; max-width: 1360px; height: 70px;">
+                <!--<div id="safari_logo" style="">-->
+                    {{ page.header }}
+                <!--</div>-->
+                <!--<div style="float: left; width: 52%">
+                    <div class="phonenumber">USA :<a href="tel:+1-844-567-5232"> 1-844-567-5232</a> | UK : <a href="tel:+44-800-031-5040">44-800-031-5040</a> | AUS : <a href="tel:+61-180-074-6461">+61-180-074-6461</a></div>
+                </div>-->
+
+                <div style="float: right; position: relative; top: 10px; max-width: 300px; width: 100%;">
+                    <div class="partners-logo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
       {% block head %}
         {% if page.secondary_menu or page.top_header or page.top_header_form %}
           <nav{{ navbar_top_attributes }}>
@@ -91,7 +109,6 @@
           {% if container_navbar %}
           <div class="container">
           {% endif %}
-            {{ page.header }}
             {% if page.primary_menu or page.header_form %}
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse" id="CollapsingNavbar">

@@ -1,6 +1,10 @@
 <?php
 
-function citsubtheme_preprocess(&$variables) {
+/**
+  *
+  * Implements hoot_preprocess()
+  */
+function citsubtheme_preprocess(&$variables)
+{
     $variables['base_path'] = base_path() . $variables['directory'];
 }
-?>
