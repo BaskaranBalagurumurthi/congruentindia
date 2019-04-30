@@ -42,4 +42,30 @@ a {
     text-decoration: none;
 }
 
+.site-footer {
+    font-family: $font-family-base;
+    font-size: 13px;
+    a,
+    .link {
+        color: $footer_font_color;
+    }
+
+    .contact-us a {
+        text-decoration: underline;
+        a:hover,
+        a:focus,
+        .link:hover,
+        .link:focus {
+            color: $footer_contact_hover;
+        }
+    }
+
+    a:hover,
+    a:focus,
+    .link:hover,
+    .link:focus {
+        color: $footer_font_color;
+        text-decoration: underline;
+    }
+}
 

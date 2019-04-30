@@ -7954,6 +7954,23 @@ header #search-block-form {
   padding: 0.5rem 0;
   margin-top: 0; }
 
+@media all and (min-width: 851px) {
+  .site-footer__top .region {
+    width: 20%;
+    padding: 0 0.65%; }
+  .site-footer__top .region:first-child {
+    padding-left: 0;
+    /* LTR */ }
+  [dir="rtl"] .site-footer__top .region:first-child {
+    padding-left: 10px;
+    padding-right: 0; }
+  .site-footer__top .region:last-child {
+    padding-right: 0;
+    /* LTR */ }
+  [dir="rtl"] .site-footer__top .region:last-child {
+    padding-left: 0;
+    padding-right: 10px; } }
+
 /**
  * @file
  * Styles for the skip link.
@@ -10414,3 +10431,23 @@ a {
 
 .site-name-slogan a {
   text-decoration: none; }
+
+.site-footer {
+  font-family: "Open Sans", Arial;
+  font-size: 13px; }
+  .site-footer a,
+  .site-footer .link {
+    color: #b4b4b4; }
+  .site-footer .contact-us a {
+    text-decoration: underline; }
+    .site-footer .contact-us a a:hover,
+    .site-footer .contact-us a a:focus,
+    .site-footer .contact-us a .link:hover,
+    .site-footer .contact-us a .link:focus {
+      color: #f60; }
+  .site-footer a:hover,
+  .site-footer a:focus,
+  .site-footer .link:hover,
+  .site-footer .link:focus {
+    color: #b4b4b4;
+    text-decoration: underline; }
