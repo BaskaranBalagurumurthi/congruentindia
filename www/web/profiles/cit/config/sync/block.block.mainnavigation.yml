@@ -1,6 +1,6 @@
-uuid: 0497648c-2791-4a44-b99c-e52b2c4ca421
+uuid: ba2a757d-73a6-41f1-ba2b-c7cb7d185e4f
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -8,9 +8,7 @@ dependencies:
     - system
   theme:
     - citsubtheme
-_core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: citsubtheme_main_menu
+id: mainnavigation
 theme: citsubtheme
 region: primary_menu
 weight: 0
