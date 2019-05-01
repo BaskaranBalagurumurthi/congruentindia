@@ -10452,11 +10452,8 @@ a {
     color: #b4b4b4; }
   .site-footer .contact-us a {
     text-decoration: underline; }
-    .site-footer .contact-us a a:hover,
-    .site-footer .contact-us a a:focus,
-    .site-footer .contact-us a .link:hover,
-    .site-footer .contact-us a .link:focus {
-      color: #f60; }
+  .site-footer .contact-us a:hover, .site-footer a:focus {
+    color: #f60; }
   .site-footer a:hover,
   .site-footer a:focus,
   .site-footer .link:hover,

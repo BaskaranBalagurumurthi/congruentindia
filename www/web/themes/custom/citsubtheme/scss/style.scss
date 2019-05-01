@@ -62,12 +62,9 @@ a {
 
     .contact-us a {
         text-decoration: underline;
-        a:hover,
-        a:focus,
-        .link:hover,
-        .link:focus {
-            color: $footer_contact_hover;
-        }
+    }
+    .contact-us a:hover, a:focus {
+        color: $footer_contact_hover;
     }
 
     a:hover,
