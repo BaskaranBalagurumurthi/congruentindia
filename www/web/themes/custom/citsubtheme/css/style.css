@@ -8927,6 +8927,190 @@ nav.tabs {
     .show > .btn-outline-dark a.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
+/*
+ * Sample SCSS for adding Superfish CSS to themes.
+ *
+ * Instructions:
+ *
+ * 1. Change the #YOUR-BLOCK-ID (below) to the ID of your Superfish block.
+ *
+ * 2. Add the SCSS to your theme.
+ *
+ * 3. Note that by removing the .sf-style-none, the style will be applied to
+ *    the menu regardless of the "Style" selected in the Superfish
+ *    block configuration.
+ *
+ */
+#block-mainnavigation-2 .sf-style-none {
+  float: left;
+  margin: 0;
+  padding: 0; }
+  #block-mainnavigation-2 .sf-style-none.sf-navbar {
+    width: 100%;
+    background: #f8f8f8; }
+  #block-mainnavigation-2 .sf-style-none ul {
+    padding-left: 0; }
+    #block-mainnavigation-2 .sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper {
+      background: #f8f8f8; }
+      #block-mainnavigation-2 .sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper li {
+        background: transparent; }
+  #block-mainnavigation-2 .sf-style-none a {
+    color: #333;
+    padding: 0.75em 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10.5pt; }
+    #block-mainnavigation-2 .sf-style-none a.sf-with-ul {
+      padding-right: 2.25em; }
+    #block-mainnavigation-2 .sf-style-none a:focus {
+      background: #f8f8f8;
+      outline: 0; }
+    #block-mainnavigation-2 .sf-style-none a:hover {
+      background: #f8f8f8;
+      outline: 0; }
+    #block-mainnavigation-2 .sf-style-none a:active {
+      background: #f8f8f8;
+      outline: 0; }
+  #block-mainnavigation-2 .sf-style-none span.nolink {
+    color: #333;
+    padding: 0.75em 1em; }
+    #block-mainnavigation-2 .sf-style-none span.nolink.sf-with-ul {
+      padding-right: 2.25em; }
+    #block-mainnavigation-2 .sf-style-none span.nolink:hover {
+      background: #f8f8f8;
+      outline: 0; }
+  #block-mainnavigation-2 .sf-style-none span.sf-description {
+    color: #333;
+    display: block;
+    font-size: 0.833em;
+    line-height: 1.5;
+    margin: 5px 0 0 5px;
+    padding: 0; }
+  #block-mainnavigation-2 .sf-style-none.rtl span.sf-description {
+    margin: 5px 5px 0 0; }
+  #block-mainnavigation-2 .sf-style-none.rtl span.nolink.sf-with-ul {
+    padding-left: 2.25em;
+    padding-right: 1em; }
+  #block-mainnavigation-2 .sf-style-none.rtl a.sf-with-ul {
+    padding-left: 2.25em;
+    padding-right: 1em; }
+  #block-mainnavigation-2 .sf-style-none li {
+    background: #f8f8f8; }
+    #block-mainnavigation-2 .sf-style-none li li {
+      background: #f8f8f8; }
+      #block-mainnavigation-2 .sf-style-none li li li {
+        background: #f8f8f8; }
+    #block-mainnavigation-2 .sf-style-none li:hover {
+      background: #f8f8f8;
+      outline: 0; }
+      #block-mainnavigation-2 .sf-style-none li:hover > ul {
+        top: 40px; }
+    #block-mainnavigation-2 .sf-style-none li.sfHover {
+      background: #f8f8f8;
+      outline: 0; }
+      #block-mainnavigation-2 .sf-style-none li.sfHover > ul {
+        top: 40px; }
+  #block-mainnavigation-2 .sf-style-none .sf-sub-indicator {
+    background-image: url("../images/dropdown-arrows.png"); }
+
+#block-mainnavigation-2 div.sf-accordion-toggle.sf-style-none a {
+  background: #f8f8f8;
+  color: #333;
+  padding: 1em; }
+  #block-mainnavigation-2 div.sf-accordion-toggle.sf-style-none a.sf-expanded {
+    background: #f8f8f8;
+    font-weight: bold; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li a {
+  padding-left: auto;
+  padding-right: 2em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li a {
+  padding-left: auto;
+  padding-right: 3em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li li a {
+  padding-left: auto;
+  padding-right: 4em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li a {
+  padding-left: auto;
+  padding-right: 5em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.rtl ul.sf-multicolumn li.sf-multicolumn-wrapper ol li.sf-multicolumn-column {
+  float: right; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li.sf-expanded {
+  background: #f8f8f8; }
+  #block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > a {
+    font-weight: bold; }
+  #block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > span.nolink {
+    font-weight: bold; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li a {
+  padding-left: 2em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li a {
+  padding-left: 3em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li li a {
+  padding-left: 4em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li li li a {
+  padding-left: 5em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li li li span.nolink {
+  padding-left: 5em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li li span.nolink {
+  padding-left: 4em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li li span.nolink {
+  padding-left: 3em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li li span.nolink {
+  padding-left: 2em; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper ol {
+  margin: 0;
+  padding: 0; }
+  #block-mainnavigation-2 .sf-menu.sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper ol li {
+    margin: 0;
+    padding: 0; }
+    #block-mainnavigation-2 .sf-menu.sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper ol li.sf-multicolumn-column {
+      display: inline;
+      float: left; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper a.menuparent {
+  font-weight: bold; }
+
+#block-mainnavigation-2 .sf-menu.sf-style-none ul.sf-multicolumn li.sf-multicolumn-wrapper span.nolink.menuparent {
+  font-weight: bold; }
+
 /*!* Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome * License - http://fontawesome.io/license(Font:SIL OFL 1.1,CSS:MIT License) */
 @font-face {
   font-family: 'FontAwesome';
