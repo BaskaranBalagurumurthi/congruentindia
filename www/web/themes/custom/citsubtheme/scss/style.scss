@@ -52,6 +52,11 @@ a {
     text-decoration: none;
 }
 
+.column-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .site-footer {
     font-family: $font-family-base;
     font-size: 13px;
@@ -73,62 +78,5 @@ a {
     .link:focus {
         color: $footer_font_color;
         text-decoration: underline;
-    }
-}
-
-.container_head {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.container_logo {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1360px;
-    height: 70px;
-}
-
-.partners_logo_container {
-    float: right;
-    position: relative;
-    top: 10px;
-    max-width: 300px;
-    width: 100%;
-}
-
-.container_logo_header {
-    max-width: 1360px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    min-height: 1px;
-    padding-bottom: 0;
-}
-
-.column-center {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.phonenumber {
-    color: $white;
-    font-weight: 600;
-    font-size: 10pt;
-    text-align: center;
-    background-color: $phonenumber_bg;
-    padding: 6px;
-    border-radius: 18px;
-    font-family: $font-family-phonenumber;
-
-    a:hover,
-    a:focus,
-    a:link,
-    .link:hover,
-    .link:focus {
-        color: $white;
-        text-decoration: none;
     }
 }

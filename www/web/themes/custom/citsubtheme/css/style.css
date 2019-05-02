@@ -7628,6 +7628,31 @@ form .form-type-textarea {
     margin-left: 0;
     float: none; } }
 
+.container_head {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.phonenumber {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 10pt;
+  text-align: center;
+  background-color: #545454;
+  padding: 6px;
+  border-radius: 18px;
+  font-family: Open Sans, HelveticaNeue, Helvetica, Arial, sans-serif; }
+  .phonenumber a:hover,
+  .phonenumber a:focus,
+  .phonenumber a:link,
+  .phonenumber .link:hover,
+  .phonenumber .link:focus {
+    color: #FFFFFF;
+    text-decoration: none; }
+
+#block-mainnavigation-2 {
+  border-top: 2px solid #ce312a; }
+
 /**
  * @file
  * Styles for the help block.
@@ -10628,6 +10653,10 @@ a {
 .site-name-slogan a {
   text-decoration: none; }
 
+.column-center {
+  margin-top: auto;
+  margin-bottom: auto; }
+
 .site-footer {
   font-family: "Open Sans", Arial;
   font-size: 13px; }
@@ -10644,52 +10673,3 @@ a {
   .site-footer .link:focus {
     color: #b4b4b4;
     text-decoration: underline; }
-
-.container_head {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-.container_logo {
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1360px;
-  height: 70px; }
-
-.partners_logo_container {
-  float: right;
-  position: relative;
-  top: 10px;
-  max-width: 300px;
-  width: 100%; }
-
-.container_logo_header {
-  max-width: 1360px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  position: relative;
-  min-height: 1px;
-  padding-bottom: 0; }
-
-.column-center {
-  margin-top: auto;
-  margin-bottom: auto; }
-
-.phonenumber {
-  color: #FFFFFF;
-  font-weight: 600;
-  font-size: 10pt;
-  text-align: center;
-  background-color: #545454;
-  padding: 6px;
-  border-radius: 18px;
-  font-family: Open Sans, HelveticaNeue, Helvetica, Arial, sans-serif; }
-  .phonenumber a:hover,
-  .phonenumber a:focus,
-  .phonenumber a:link,
-  .phonenumber .link:hover,
-  .phonenumber .link:focus {
-    color: #FFFFFF;
-    text-decoration: none; }

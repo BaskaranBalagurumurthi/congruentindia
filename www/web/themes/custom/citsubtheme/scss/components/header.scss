@@ -41,3 +41,35 @@
         float: none;
     }
 }
+
+$font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
+
+.container_head {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.phonenumber {
+    color: $white;
+    font-weight: 600;
+    font-size: 10pt;
+    text-align: center;
+    background-color: $phonenumber_bg;
+    padding: 6px;
+    border-radius: 18px;
+    font-family: $font-family-phonenumber;
+
+    a:hover,
+    a:focus,
+    a:link,
+    .link:hover,
+    .link:focus {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+#block-mainnavigation-2 {
+    border-top: 2px solid $menu-border;
+}
