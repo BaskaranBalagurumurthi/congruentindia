@@ -1,0 +1,30 @@
+uuid: 96155b63-601b-4326-bc0f-ece27498be1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage_logo_slider.field_client_logo
+    - node.type.homepage_logo_slider
+  module:
+    - image
+    - user
+id: node.homepage_logo_slider.default
+targetEntityType: node
+bundle: homepage_logo_slider
+mode: default
+content:
+  field_client_logo:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

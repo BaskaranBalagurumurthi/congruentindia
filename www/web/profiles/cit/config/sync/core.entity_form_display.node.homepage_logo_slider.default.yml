@@ -1,0 +1,56 @@
+uuid: 8e41d4bf-c027-477c-a139-17c200789c05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage_logo_slider.field_client_logo
+    - image.style.thumbnail
+    - node.type.homepage_logo_slider
+  module:
+    - image
+id: node.homepage_logo_slider.default
+targetEntityType: node
+bundle: homepage_logo_slider
+mode: default
+content:
+  field_client_logo:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  uid: true

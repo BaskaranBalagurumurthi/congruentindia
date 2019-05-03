@@ -1,0 +1,22 @@
+uuid: b09a371f-05ac-46c5-8533-680e95579335
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homepage_logo_slider
+id: node.homepage_logo_slider.promote
+field_name: promote
+entity_type: node
+bundle: homepage_logo_slider
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

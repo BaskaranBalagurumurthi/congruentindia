@@ -1,0 +1,22 @@
+uuid: 0aeda47c-a033-47d6-b66a-789f74160c87
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage_logo_slider.field_client_logo
+    - node.type.homepage_logo_slider
+  module:
+    - user
+id: node.homepage_logo_slider.teaser
+targetEntityType: node
+bundle: homepage_logo_slider
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_client_logo: true
