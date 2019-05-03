@@ -1,0 +1,19 @@
+uuid: ab8572b3-c106-495a-a59e-1314c8775287
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_button_text
+    - node.type.home_page_banner
+id: node.home_page_banner.field_banner_button_text
+field_name: field_banner_button_text
+entity_type: node
+bundle: home_page_banner
+label: 'Banner Button text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
