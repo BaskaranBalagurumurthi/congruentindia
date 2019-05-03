@@ -69,65 +69,7 @@
 #}
 <div id="page-wrapper">
   <div id="page">
-    <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-              {{ page.header }}
-            </div>
-            <div class="col-5 column-center">
-                    <div class="phonenumber">USA :<a href="tel:+1-844-567-5232"> 1-844-567-5232</a> | UK : <a href="tel:+44-800-031-5040">44-800-031-5040</a> | AUS : <a href="tel:+61-180-074-6461">+61-180-074-6461</a></div>
-            </div>
-            <div class="col justify-content-end d-flex column-center">
-                <div class="partners-logo"></div>
-            </div>
-          </div>
-      </div>
-      {% block head %}
-      {% if page.secondary_menu or page.top_header or page.top_header_form %}
-      <nav{{ navbar_top_attributes }}>
-        {% if container_navbar %}
-        <div class="container">
-          {% endif %}
-          {{ page.top_header }}
-          {% if page.top_header_form %}
-          <div class="form-inline navbar-form float-right">
-            {{ page.top_header_form }}
-          </div>
-          {% endif %}
-          {% if container_navbar %}
-        </div>
-        {% endif %}
-        </nav>
-        {% endif %}
-        <nav{{ navbar_attributes }}>
-          {% if container_navbar %}
-          <div class="container">
-            {% endif %}
-            {% if page.primary_menu or page.header_form %}
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-              data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false"
-              aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse row justify-content-center mainnavigation-topborder" id="CollapsingNavbar">
-              {{ page.primary_menu }}
-              {% if page.header_form %}
-              <div class="form-inline navbar-form float-right">
-                {{ page.header_form }}
-              </div>
-              {% endif %}
-            </div>
-            {% endif %}
-            {% if sidebar_collapse %}
-            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
-              data-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false"
-              aria-label="Toggle navigation"></button>
-            {% endif %}
-            {% if container_navbar %}
-          </div>
-          {% endif %}
-          </nav>
-          {% endblock %}
-    </header>
+    {% include base_path ~ '/templates/common/header.html.twig' %}
     {% if page.highlighted %}
     <div class="highlighted">
       <aside class="{{ container }} section clearfix" role="complementary">
@@ -182,37 +124,6 @@
   </aside>
 </div>
 {% endif %}
-<footer class="site-footer">
-  {% block footer %}
-  <div class="{{ container }}">
-    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-    <div class="site-footer__top clearfix">
-      {{ page.footer_first }}
-      {{ page.footer_second }}
-      <section class="row region contact-us">
-        <ul>
-          <li>USA : <a href="tel:+1-844-567-5232">+1-844-567-5232</a></li>
-          <li>UK : <a href="tel:+44-800-031-5040">+44-800-031-5040 </a></li>
-          <li>AUS : <a href="tel:+61-180-074-6461">+61-180-074-6461</a></li>
-          <li>IND : <a href="tel:+91-44-4290-7900">+91-44-4290-7900</a></li>
-        </ul>
-      </section>
-      {{ page.footer_third }}
-      {{ page.footer_fourth }}
-      <section class="row region region-footer-second">
-        <div>
-          <img src="{{ base_path }}/images/footer-microsoft-partner-logo.png" alt="Microsoft partner logo">
-          <img src="{{ base_path }}/images/footer-salesforce-partner-logo.png" alt="salseforce partner logo">
-      </section>
-    </div>
-    {% endif %}
-    {% if page.footer_fifth %}
-    <div class="site-footer__bottom">
-      {{ page.footer_fifth }}
-    </div>
-    {% endif %}
-  </div>
-  {% endblock %}
-</footer>
+{% include base_path ~ '/templates/common/footer.html.twig' %}
 </div>
 </div>
