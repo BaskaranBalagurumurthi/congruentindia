@@ -7650,8 +7650,12 @@ form .form-type-textarea {
     color: #FFFFFF;
     text-decoration: none; }
 
-#block-mainnavigation-2 {
-  border-top: 2px solid #ce312a; }
+.mainnavigation-topborder {
+  border-top: 2px solid #ce312a;
+  background-color: #f8f8f8; }
+
+#superfish-main li {
+  border-right: 1px solid #ece4e4; }
 
 /**
  * @file

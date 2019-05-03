@@ -70,6 +70,13 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
     }
 }
 
-#block-mainnavigation-2 {
-    border-top: 2px solid $menu-border;
+.mainnavigation-topborder {
+    border-top: 2px solid $menu-top-border;
+    background-color: $menu_bg;
+}
+
+#superfish-main {
+    li {
+        border-right: 1px solid $menu-li-border;
+    }
 }
