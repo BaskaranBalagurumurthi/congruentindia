@@ -1,0 +1,38 @@
+uuid: 26ccae75-e26d-4ffb-8ff3-49b01490d3bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_grid_image
+    - node.type.homepage_welcome_grid
+  module:
+    - image
+id: node.homepage_welcome_grid.field_homepage_grid_image
+field_name: field_homepage_grid_image
+entity_type: node
+bundle: homepage_welcome_grid
+label: 'Homepage Grid Image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: 70x70
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

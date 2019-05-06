@@ -1,0 +1,21 @@
+uuid: a003cc1b-602d-4ab4-9fb9-5edec28f1f9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_description
+    - node.type.news_and_events
+  module:
+    - text
+id: node.news_and_events.field_news_description
+field_name: field_news_description
+entity_type: node
+bundle: news_and_events
+label: 'News Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

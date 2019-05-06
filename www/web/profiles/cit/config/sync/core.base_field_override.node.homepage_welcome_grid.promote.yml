@@ -1,0 +1,22 @@
+uuid: fda616eb-52a9-4c9e-b45a-7617a35f0c83
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homepage_welcome_grid
+id: node.homepage_welcome_grid.promote
+field_name: promote
+entity_type: node
+bundle: homepage_welcome_grid
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

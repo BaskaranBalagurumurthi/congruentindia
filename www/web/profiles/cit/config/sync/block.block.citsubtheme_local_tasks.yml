@@ -9,7 +9,7 @@ _core:
 id: citsubtheme_local_tasks
 theme: citsubtheme
 region: content
-weight: -40
+weight: -11
 provider: null
 plugin: local_tasks_block
 settings:

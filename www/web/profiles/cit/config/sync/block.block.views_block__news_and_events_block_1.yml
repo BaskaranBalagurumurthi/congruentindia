@@ -1,22 +1,22 @@
-uuid: cc6c5343-bbec-4aef-b035-03fc7ef1af90
+uuid: 5e024727-10be-4beb-8df5-e6788e79d108
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.banner_slide
+    - views.view.news_and_events
   module:
     - system
     - views
   theme:
     - citsubtheme
-id: views_block__banner_slide_block_1
+id: views_block__news_and_events_block_1
 theme: citsubtheme
 region: content
-weight: -8
+weight: -2
 provider: null
-plugin: 'views_block:banner_slide-block_1'
+plugin: 'views_block:news_and_events-block_1'
 settings:
-  id: 'views_block:banner_slide-block_1'
+  id: 'views_block:news_and_events-block_1'
   label: ''
   provider: views
   label_display: '0'

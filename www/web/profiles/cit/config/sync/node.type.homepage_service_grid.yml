@@ -1,4 +1,4 @@
-uuid: 7ea5192b-ea97-4acc-af50-d90d722f4944
+uuid: 3a2c9f94-b4db-4838-ab2a-825ee9f71e45
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Homepage Logo slider'
-type: homepage_logo_slider
-description: 'Homepage logo slider'
+name: 'Homepage Service Grid'
+type: homepage_service_grid
+description: 'Service grid'
 help: ''
 new_revision: false
 preview_mode: 1

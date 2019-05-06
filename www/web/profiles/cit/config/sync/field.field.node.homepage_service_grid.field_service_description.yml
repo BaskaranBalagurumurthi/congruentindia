@@ -1,0 +1,21 @@
+uuid: 15fc17f4-124f-4630-a99e-ac42afc7be4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_description
+    - node.type.homepage_service_grid
+  module:
+    - text
+id: node.homepage_service_grid.field_service_description
+field_name: field_service_description
+entity_type: node
+bundle: homepage_service_grid
+label: 'Service Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

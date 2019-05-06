@@ -1,0 +1,39 @@
+uuid: 5c1f58a7-a16f-4b8b-b7b7-e112acf2d296
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage_welcome_grid.body
+    - field.field.node.homepage_welcome_grid.field_homepage_grid_image
+    - node.type.homepage_welcome_grid
+  module:
+    - image
+    - text
+    - user
+id: node.homepage_welcome_grid.default
+targetEntityType: node
+bundle: homepage_welcome_grid
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_homepage_grid_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

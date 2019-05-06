@@ -1,0 +1,67 @@
+uuid: e08a6742-7121-4fca-aaf0-08c2f64fe3c4
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.news_and_events.field_news_description
+    - field.field.node.news_and_events.field_news_image
+    - node.type.news_and_events
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_stacked
+      library: ds/ds_2col_stacked
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          header: div
+          left: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      header:
+        - links
+      left:
+        - field_news_image
+      right:
+        - field_news_description
+id: node.news_and_events.full
+targetEntityType: node
+bundle: news_and_events
+mode: full
+content:
+  field_news_description:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: right
+  field_news_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: left
+  links:
+    weight: 0
+    region: header
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

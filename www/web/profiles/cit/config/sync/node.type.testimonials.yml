@@ -1,4 +1,4 @@
-uuid: 7ea5192b-ea97-4acc-af50-d90d722f4944
+uuid: f4153637-5de6-4264-a8d1-6a81eca1e875
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Homepage Logo slider'
-type: homepage_logo_slider
-description: 'Homepage logo slider'
+name: Testimonials
+type: testimonials
+description: Testimonial
 help: ''
 new_revision: false
-preview_mode: 1
+preview_mode: 0
 display_submitted: false

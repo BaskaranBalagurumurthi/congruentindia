@@ -1,0 +1,71 @@
+uuid: 88e382d7-ab54-43dd-8db7-57d5418a3ab8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news_and_events.field_news_description
+    - field.field.node.news_and_events.field_news_image
+    - node.type.news_and_events
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_fluid
+      library: ds/ds_2col_fluid
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_news_image
+      right:
+        - node_title
+        - field_news_description
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h6
+          class: ''
+          link: false
+id: node.news_and_events.teaser
+targetEntityType: node
+bundle: news_and_events
+mode: teaser
+content:
+  field_news_description:
+    type: text_trimmed
+    weight: 2
+    region: right
+    label: hidden
+    settings:
+      trim_length: 50
+    third_party_settings: {  }
+  field_news_image:
+    type: image
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  links: true

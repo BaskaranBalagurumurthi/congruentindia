@@ -24,6 +24,7 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_discovery: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -44,7 +45,9 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  views_bootstrap: 0
   views_ui: 0
+  ds: 1
   menu_link_content: 1
   views: 10
   standard: 1000

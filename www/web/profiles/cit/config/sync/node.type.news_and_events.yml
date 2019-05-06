@@ -1,4 +1,4 @@
-uuid: 7ea5192b-ea97-4acc-af50-d90d722f4944
+uuid: dc42c65e-bdc8-4b96-becc-bf7bdc1ea89a
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Homepage Logo slider'
-type: homepage_logo_slider
-description: 'Homepage logo slider'
+name: 'News and Events'
+type: news_and_events
+description: 'News and Events'
 help: ''
 new_revision: false
 preview_mode: 1

@@ -1,22 +1,22 @@
-uuid: cc6c5343-bbec-4aef-b035-03fc7ef1af90
+uuid: 64475fbf-1d27-4715-b15e-2b733a0ba575
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.banner_slide
+    - views.view.homepage_service_grid
   module:
     - system
     - views
   theme:
     - citsubtheme
-id: views_block__banner_slide_block_1
+id: views_block__homepage_service_grid_block_1
 theme: citsubtheme
 region: content
-weight: -8
+weight: -3
 provider: null
-plugin: 'views_block:banner_slide-block_1'
+plugin: 'views_block:homepage_service_grid-block_1'
 settings:
-  id: 'views_block:banner_slide-block_1'
+  id: 'views_block:homepage_service_grid-block_1'
   label: ''
   provider: views
   label_display: '0'

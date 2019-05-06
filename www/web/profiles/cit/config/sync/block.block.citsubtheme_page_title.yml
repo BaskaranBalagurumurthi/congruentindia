@@ -9,7 +9,7 @@ _core:
 id: citsubtheme_page_title
 theme: citsubtheme
 region: content
-weight: -50
+weight: -12
 provider: null
 plugin: page_title_block
 settings:

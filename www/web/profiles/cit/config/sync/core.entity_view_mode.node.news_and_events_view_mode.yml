@@ -1,0 +1,10 @@
+uuid: 662ec17a-1dc3-4bf8-b99a-fa225c7d43aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.news_and_events_view_mode
+label: 'News and Events View Mode'
+targetEntityType: node
+cache: true

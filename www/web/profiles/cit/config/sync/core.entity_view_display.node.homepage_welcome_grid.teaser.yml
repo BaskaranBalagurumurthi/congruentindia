@@ -1,0 +1,30 @@
+uuid: 9184cd22-8087-47fc-b4fb-63f36a1d4dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage_welcome_grid.body
+    - node.type.homepage_welcome_grid
+  module:
+    - text
+    - user
+id: node.homepage_welcome_grid.teaser
+targetEntityType: node
+bundle: homepage_welcome_grid
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

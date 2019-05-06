@@ -1,0 +1,22 @@
+uuid: 5956068f-a8c9-4e07-bc82-c7f5ca1fb9a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.homepage_welcome_grid
+  module:
+    - text
+id: node.homepage_welcome_grid.body
+field_name: body
+entity_type: node
+bundle: homepage_welcome_grid
+label: 'Grid Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
