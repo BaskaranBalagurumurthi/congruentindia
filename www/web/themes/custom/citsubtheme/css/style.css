@@ -10677,3 +10677,12 @@ a {
   .site-footer .link:focus {
     color: #b4b4b4;
     text-decoration: underline; }
+
+.url-to-video-container .loader {
+  top: 80px; }
+
+.url-to-video-container .url-to-video-player .play-button {
+  top: 90px; }
+
+.leadership-name {
+  background-color: #e4e5e6; }

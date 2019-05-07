@@ -80,3 +80,18 @@ a {
         text-decoration: underline;
     }
 }
+
+.url-to-video-container {
+    .loader {
+    top: 80px;
+    }
+    .url-to-video-player {
+        .play-button {
+            top: 90px;
+        }
+    }
+}
+
+.leadership-name {
+    background-color: $leadership-name-bg;
+}
