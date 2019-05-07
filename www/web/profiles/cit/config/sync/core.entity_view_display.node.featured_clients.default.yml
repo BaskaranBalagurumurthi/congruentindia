@@ -1,0 +1,30 @@
+uuid: 854be837-1d77-45ff-9e32-a2d384413ee8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.featured_clients.field_featured_client_logo
+    - node.type.featured_clients
+  module:
+    - image
+    - user
+id: node.featured_clients.default
+targetEntityType: node
+bundle: featured_clients
+mode: default
+content:
+  field_featured_client_logo:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

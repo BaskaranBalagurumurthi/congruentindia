@@ -13,6 +13,7 @@ dependencies:
     - node
     - text
     - user
+    - views_bootstrap
 id: news_and_events
 label: 'News and Events'
 module: views
@@ -316,12 +317,7 @@ display:
             label: ''
           granularity: second
       title: 'News and Events'
-      header:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
-          plugin_id: text_custom
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -351,10 +347,10 @@ display:
           columns: 3
           automatic_width: true
           alignment: horizontal
-          col_class_default: true
-          col_class_custom: ''
-          row_class_default: true
-          row_class_custom: ''
+          col_class_default: false
+          col_class_custom: 'col col-xs-12 col-sm-12 col-md-4 col-lg-4'
+          row_class_default: false
+          row_class_custom: row
       defaults:
         style: false
         row: false
@@ -377,17 +373,19 @@ display:
           advanced_fieldset:
             advanced: false
       header:
-        area_text_custom:
-          id: area_text_custom
+        area:
+          id: area
           table: views
-          field: area_text_custom
+          field: area
           relationship: none
           group_type: group
           admin_label: ''
           empty: false
           tokenize: false
-          content: 'News and Events'
-          plugin_id: text_custom
+          content:
+            value: '<h2 style="padding-bottom: 20px">News And Events</h2>'
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
@@ -415,11 +413,16 @@ display:
         style: false
         row: false
       style:
-        type: default
+        type: views_bootstrap_grid
         options:
           row_class: ''
           default_row_class: true
           uses_fields: false
+          alignment: horizontal
+          col_xs: col-1
+          col_sm: col-sm-1
+          col_md: col-md-4
+          col_lg: col-lg-12
       row:
         type: 'ds_entity:node'
         options:

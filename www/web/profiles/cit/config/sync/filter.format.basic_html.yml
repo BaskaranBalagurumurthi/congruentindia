@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - editor
+    - url_to_video_filter
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
@@ -43,3 +44,13 @@ filters:
     status: true
     weight: 11
     settings: {  }
+  filter_url_to_video:
+    id: filter_url_to_video
+    provider: url_to_video_filter
+    status: true
+    weight: 0
+    settings:
+      youtube: '1'
+      youtube_webp_preview: '0'
+      vimeo: '1'
+      autoload: '0'
