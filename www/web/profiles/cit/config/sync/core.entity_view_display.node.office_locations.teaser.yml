@@ -1,0 +1,20 @@
+uuid: caff6070-ac6e-499e-985b-5db5453548aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.office_locations
+  module:
+    - user
+id: node.office_locations.teaser
+targetEntityType: node
+bundle: office_locations
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

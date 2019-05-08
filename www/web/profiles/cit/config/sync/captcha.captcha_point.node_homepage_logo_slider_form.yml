@@ -1,0 +1,7 @@
+uuid: 1027c694-ce9f-4c1a-8b8c-d97350867139
+langcode: en
+status: false
+dependencies: {  }
+formId: node_homepage_logo_slider_form
+captchaType: default
+label: null

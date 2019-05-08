@@ -1,0 +1,28 @@
+uuid: 220f811d-71e0-44ee-a9ba-290dc0349c8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.office_locations.field_office_location
+    - node.type.office_locations
+  module:
+    - text
+    - user
+id: node.office_locations.default
+targetEntityType: node
+bundle: office_locations
+mode: default
+content:
+  field_office_location:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/life-at-congruent\r\n/featured-client\r\n/corporate-culture\r\n/offshore-strategy\r\n/leadership-team"
+    pages: "/life-at-congruent\r\n/featured-client\r\n/corporate-culture\r\n/offshore-strategy\r\n/leadership-team\r\n/case-studies\r\n/scrum\r\n/test-driven-development"
     negate: false
     context_mapping: {  }

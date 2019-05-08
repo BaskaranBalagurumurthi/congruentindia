@@ -1,0 +1,18 @@
+uuid: 6de4f1c4-6b63-4b27-ba7c-78e65567de6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Office Locations'
+type: office_locations
+description: 'Office locations'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
