@@ -94,4 +94,24 @@ a {
 
 .leadership-name {
     background-color: $leadership-name-bg;
+    font-size: 15px;
+}
+
+h1.title {
+    color: $menu-top-border;
+    font-size: $font-size-lg;
+}
+
+// Side bar
+.sidebar {
+    h2 {
+        border-bottom: none;
+    } 
+    border-left: 1px solid $sidebar-border;  
+}
+
+// Social icon
+.fa-linkedin {
+    background : $linkedin;
+    color: $white;
 }

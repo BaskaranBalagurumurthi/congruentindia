@@ -10685,4 +10685,18 @@ a {
   top: 90px; }
 
 .leadership-name {
-  background-color: #e4e5e6; }
+  background-color: #e4e5e6;
+  font-size: 15px; }
+
+h1.title {
+  color: #ce312a;
+  font-size: 1.25rem; }
+
+.sidebar {
+  border-left: 1px solid #e1e1e1; }
+  .sidebar h2 {
+    border-bottom: none; }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: #FFFFFF; }
