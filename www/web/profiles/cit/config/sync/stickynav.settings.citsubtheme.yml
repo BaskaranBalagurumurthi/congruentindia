@@ -1,0 +1,5 @@
+enabled: true
+selector: '#CollapsingNavbar'
+offset: ''
+custom_offset: null
+roles: {  }

@@ -45,6 +45,7 @@ module:
   slick_ui: 0
   slick_views: 0
   smtp: 0
+  stickynav: 0
   superfish: 0
   system: 0
   taxonomy: 0
