@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0edd244fb64030c4232c82c18f51aaa",
+    "content-hash": "1cfa71ac6095bc9f349e0e7e4f5a66bd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2327,6 +2327,69 @@
             "homepage": "https://www.drupal.org/project/cdn",
             "support": {
                 "source": "https://git.drupalcode.org/project/cdn"
+            }
+        },
+        {
+            "name": "drupal/cheeseburger_menu",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cheeseburger_menu.git",
+                "reference": "8.x-4.01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cheeseburger_menu-8.x-4.01.zip",
+                "reference": "8.x-4.01",
+                "shasum": "f83333466ff9de429a8c649ddcb665cd6ded69e0"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.01",
+                    "datestamp": "1556533685",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "DavorHorvacki",
+                    "homepage": "https://www.drupal.org/user/3566953"
+                },
+                {
+                    "name": "aleksandar.boros.gyevi",
+                    "homepage": "https://www.drupal.org/user/316083"
+                },
+                {
+                    "name": "gnikolovski",
+                    "homepage": "https://www.drupal.org/user/3451979"
+                },
+                {
+                    "name": "malatenszki",
+                    "homepage": "https://www.drupal.org/user/3452551"
+                },
+                {
+                    "name": "vladanvukmanov",
+                    "homepage": "https://www.drupal.org/user/3524751"
+                }
+            ],
+            "description": "Navigation and language block for mobiles",
+            "homepage": "https://www.drupal.org/project/cheeseburger_menu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/cheeseburger_menu"
             }
         },
         {
@@ -6185,6 +6248,53 @@
             "homepage": "https://www.drupal.org/project/sticky",
             "support": {
                 "source": "https://git.drupalcode.org/project/sticky"
+            }
+        },
+        {
+            "name": "drupal/stickynav",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/stickynav.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/stickynav-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "06bdbe13f559b25f2f4c7a7b980cc2c6ba033079"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1484847483",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "skein",
+                    "homepage": "https://www.drupal.org/user/784174"
+                }
+            ],
+            "description": "Module to make navigation on the website sticky when you scroll down the page.",
+            "homepage": "https://www.drupal.org/project/stickynav",
+            "support": {
+                "source": "https://git.drupalcode.org/project/stickynav"
             }
         },
         {
