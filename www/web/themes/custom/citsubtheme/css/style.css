@@ -10685,8 +10685,7 @@ a {
   top: 90px; }
 
 .leadership-name {
-  background-color: #e4e5e6;
-  font-size: 15px; }
+  background-color: #e4e5e6; }
 
 h1.title {
   color: #ce312a;
@@ -10700,3 +10699,7 @@ h1.title {
 .fa-linkedin {
   background: #007bb5;
   color: #FFFFFF; }
+
+.content-gray {
+  color: #414242;
+  font-size: 0.9375rem; }

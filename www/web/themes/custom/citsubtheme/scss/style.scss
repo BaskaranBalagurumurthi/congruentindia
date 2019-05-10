@@ -94,7 +94,6 @@ a {
 
 .leadership-name {
     background-color: $leadership-name-bg;
-    font-size: 15px;
 }
 
 h1.title {
@@ -114,4 +113,10 @@ h1.title {
 .fa-linkedin {
     background : $linkedin;
     color: $white;
+}
+
+// Content
+.content-gray {
+    color: $content-gray;
+    font-size: $font-size-base;
 }
