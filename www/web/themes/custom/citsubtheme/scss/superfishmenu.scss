@@ -52,14 +52,17 @@ $superfish-1-background-color-level-fourth: $menu-top-border;
       }
       &:focus {
         background: $superfish-1-background-color-level-fourth;
+        color: $white;
         outline: 0;
       }
       &:hover {
         background: $superfish-1-background-color-level-fourth;
+        color: $white;
         outline: 0;
       }
       &:active {
         background: $superfish-1-background-color-level-fourth;
+        color: $white;
         outline: 0;
       }
     }

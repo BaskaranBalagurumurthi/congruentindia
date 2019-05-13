@@ -80,3 +80,9 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
         border-right: 1px solid $menu-li-border;
     }
 }
+
+.cit-primary {
+    @include respond-below(md) {
+        background-color: $menu-top-border;
+    }
+}

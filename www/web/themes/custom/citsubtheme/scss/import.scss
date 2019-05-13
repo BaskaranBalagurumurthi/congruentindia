@@ -6,14 +6,15 @@
 //bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+// mixins
+@import "mixins";
+
+
 // barrio
 @import "barrio";
 
 // typography
 //@import "typography";
-
-// mixins
-@import "mixins";
 
 // menu
 @import "superfishmenu";

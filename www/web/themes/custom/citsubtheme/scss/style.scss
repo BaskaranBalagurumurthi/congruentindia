@@ -30,6 +30,12 @@ a {
     background-position: 0px 0px;
     width: 295px;
     height: 61px;
+    @include respond-below(md) {
+        background-color: $menu-top-border;
+        background-position: -9px -341px;
+        width: 259px;
+        height: 53px;
+    }
 }
 
 .partners-logo {
@@ -37,6 +43,9 @@ a {
     background-position: -160px -85px;
     width: 291px;
     height: 55px;
+    //@include respond-below(md) {
+      //  display: none;
+    //}
 }
 
 .menu--main li a {
@@ -81,6 +90,18 @@ a {
     }
 }
 
+.site-footer__bottom {
+    border-top: none;
+    margin-top: 0;
+    & p {
+        margin-bottom: 0rem;
+    }
+}
+
+.region-footer-fifth {
+    justify-content: center;
+}
+
 .url-to-video-container {
     .loader {
     top: 80px;
@@ -119,4 +140,14 @@ h1.title {
 .content-gray {
     color: $content-gray;
     font-size: $font-size-base;
+}
+
+ol.breadcrumb {
+    background: none;
+}
+
+.hide-xs-md {
+    @include respond-below(md) {
+        display: none !important;
+    }
 }
