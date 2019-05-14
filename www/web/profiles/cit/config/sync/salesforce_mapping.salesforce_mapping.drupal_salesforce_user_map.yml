@@ -1,0 +1,52 @@
+uuid: 33f1158c-0d3e-4b0f-8a6a-58e5b103b8df
+langcode: en
+status: true
+dependencies:
+  module:
+    - salesforce_pull
+    - salesforce_push
+id: drupal_salesforce_user_map
+label: 'Drupal-Salesforce User Map'
+weight: 0
+type: salesforce_mapping
+key: ''
+async: true
+push_standalone: true
+pull_trigger_date: LastModifiedDate
+pull_where_clause: 'Email != '''''
+sync_triggers:
+  push_create: true
+  push_update: true
+  push_delete: true
+  pull_create: true
+  pull_update: true
+  pull_delete: true
+salesforce_object_type: Contact
+drupal_entity_type: user
+drupal_bundle: user
+field_mappings:
+  -
+    drupal_field_type: properties
+    drupal_field_value: mail
+    salesforce_field: Email
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: name
+    salesforce_field: LastName
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: field_user_salutation
+    salesforce_field: Salutation
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: field_user_first_name
+    salesforce_field: FirstName
+    direction: sync
+push_limit: 0
+push_retries: 3
+push_frequency: 0
+pull_frequency: 0
+always_upsert: false

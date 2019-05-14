@@ -1,0 +1,10 @@
+uuid: 0e5d8c73-8b5d-4b07-8507-588c3b1f86e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - chatbot_api_entities
+id: chatbot_api_entities_collection.token
+label: Token
+targetEntityType: chatbot_api_entities_collection
+cache: true

@@ -1,0 +1,26 @@
+uuid: 561bd01f-91e7-41de-97f5-e9527882b038
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+id: contact_message.personal.default
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  message:
+    type: string_textarea
+    weight: 3
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  copy: true
+  mail: true
+  name: true
+  preview: true
+  recipient: true
+  subject: true

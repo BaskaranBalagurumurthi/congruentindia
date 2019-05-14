@@ -1,0 +1,19 @@
+uuid: 500a83cc-78f9-4ab2-b1fe-bfa957fe95b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_name
+    - node.type.web_contact_us
+id: node.web_contact_us.field_contact_name
+field_name: field_contact_name
+entity_type: node
+bundle: web_contact_us
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

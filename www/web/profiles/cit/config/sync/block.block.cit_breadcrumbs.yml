@@ -1,0 +1,22 @@
+uuid: 4ad6bcf7-de35-4b1b-9c0f-c22eeb8920d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cit
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: cit_breadcrumbs
+theme: cit
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

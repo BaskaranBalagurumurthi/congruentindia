@@ -1,0 +1,20 @@
+uuid: c92fdb24-2b2c-4577-92a5-2e37dfc3c647
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cit
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: cit_page_title
+theme: cit
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 726e123e-9fb6-4058-bd74-68a1f8f84242
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_message
+    - node.type.web_contact_us
+id: node.web_contact_us.field_contact_message
+field_name: field_contact_message
+entity_type: node
+bundle: web_contact_us
+label: Message
+description: 'Enter Your Message'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

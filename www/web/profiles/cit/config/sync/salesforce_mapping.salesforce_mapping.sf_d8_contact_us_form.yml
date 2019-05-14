@@ -1,0 +1,52 @@
+uuid: 7b33786e-7edb-4c35-a484-a569052ccb82
+langcode: en
+status: true
+dependencies:
+  module:
+    - salesforce_pull
+    - salesforce_push
+id: sf_d8_contact_us_form
+label: 'SF D8 Contact Us Form'
+weight: 0
+type: salesforce_mapping
+key: ''
+async: true
+push_standalone: true
+pull_trigger_date: LastModifiedDate
+pull_where_clause: 'Email_id__c != '''''
+sync_triggers:
+  push_create: true
+  push_update: true
+  push_delete: true
+  pull_create: true
+  pull_update: true
+  pull_delete: true
+salesforce_object_type: Webform__c
+drupal_entity_type: node
+drupal_bundle: web_contact_us
+field_mappings:
+  -
+    drupal_field_type: properties
+    drupal_field_value: title
+    salesforce_field: Name__c
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: field_contact_email_id
+    salesforce_field: Email_id__c
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: field_contact_phone
+    salesforce_field: Phone__c
+    direction: sync
+  -
+    drupal_field_type: properties
+    drupal_field_value: field_contact_message
+    salesforce_field: Message__c
+    direction: sync
+push_limit: 0
+push_retries: 3
+push_frequency: 0
+pull_frequency: 0
+always_upsert: false

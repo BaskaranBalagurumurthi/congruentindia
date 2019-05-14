@@ -1,0 +1,7 @@
+auth:
+  type: basic
+  values:
+    username: admin
+    password: xxxxx
+_core:
+  default_config_hash: C5H89gkKwqNz9-vbwXsDSscqVUm4pzRORQ4fureS3pM

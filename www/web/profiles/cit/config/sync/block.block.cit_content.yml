@@ -1,0 +1,22 @@
+uuid: e9aa985f-300d-4f5a-97bd-e27e2dd62216
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cit
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: cit_content
+theme: cit
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,52 @@
+uuid: 25e80088-169f-474d-915d-3c91f6305539
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.user.full
+    - field.field.user.user.field_user_salutation
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.full
+targetEntityType: user
+bundle: user
+mode: full
+content:
+  field_user_salutation:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  member_for:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  salesforce_id:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  salesforce_last_sync:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image
+    weight: 2
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

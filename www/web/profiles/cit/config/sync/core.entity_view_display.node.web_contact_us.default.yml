@@ -1,0 +1,52 @@
+uuid: a6fcebfe-0c91-4ece-a86d-7a5ea55f56bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.web_contact_us.field_contact_email_id
+    - field.field.node.web_contact_us.field_contact_message
+    - field.field.node.web_contact_us.field_contact_name
+    - field.field.node.web_contact_us.field_contact_phone
+    - node.type.web_contact_us
+  module:
+    - user
+id: node.web_contact_us.default
+targetEntityType: node
+bundle: web_contact_us
+mode: default
+content:
+  field_contact_email_id:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_contact_message:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_contact_phone:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  salesforce_id:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  salesforce_last_sync:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_contact_name: true
+  links: true

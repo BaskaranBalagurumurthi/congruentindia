@@ -1,0 +1,16 @@
+rest_api_version:
+  label: ''
+  url: ''
+  version: '39.0'
+use_latest: true
+global_push_limit: 100000
+pull_max_queue_size: 100000
+show_all_objects: true
+standalone: true
+limit_mapped_object_revisions: 10
+salesforce_auth_provider: oauth_default
+_core:
+  default_config_hash: EjFTlHhnxj9PlzBk2nJ7rVdK1MdUy67s4U9n84FuMho
+consumer_key: 3MVG9pe2TCoA1Pf7GgxIND2NRjRkLwGlTkHix0_coWeaTVV32IDJHDZklT3w0CPlcb_CXO_2.N04LuBXdtIPb
+consumer_secret: AC609A614A6A415551F8B90D1E3308EFF0D73595CA19FDD0D3A7BDA39485ED58
+login_url: 'https://login.salesforce.com'

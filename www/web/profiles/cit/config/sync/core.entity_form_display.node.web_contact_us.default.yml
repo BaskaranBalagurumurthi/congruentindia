@@ -1,0 +1,55 @@
+uuid: e392e9c0-1cdd-4a22-a0c3-9e57bf7c28e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.web_contact_us.field_contact_email_id
+    - field.field.node.web_contact_us.field_contact_message
+    - field.field.node.web_contact_us.field_contact_name
+    - field.field.node.web_contact_us.field_contact_phone
+    - node.type.web_contact_us
+id: node.web_contact_us.default
+targetEntityType: node
+bundle: web_contact_us
+mode: default
+content:
+  field_contact_email_id:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_contact_message:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_contact_phone:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_contact_name: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
