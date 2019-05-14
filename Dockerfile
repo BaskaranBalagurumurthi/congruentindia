@@ -21,7 +21,8 @@ RUN pecl install xdebug
 RUN docker-php-ext-enable xdebug
 
 # Override apache settings.
-COPY ./etc/apache/000-default.conf /etc/apache2/sites-available/
+COPY ./etc/apache/sites-available/000-default.conf /etc/apache2/sites-available/
+#COPY ./etc/apache/sites-available/default-ssl.conf /etc/apache2/sites-available/
 
 # Override php settings.
 COPY ./etc/php/php.ini /usr/local/etc/php/
@@ -72,12 +73,23 @@ RUN npm install -g gulp
 #
 RUN apt-get install -y ruby-full && \
     gem install sass && \
-    gem install compass && \
-    gem install less
+    gem install compass
+#gem install less
 
 # Add a custom project's entrypoint.
 # Creates empty database to install interactives for the first time if needed.
 COPY ./etc/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-CMD ["/entrypoint.sh"]
+CMD ["/entrypoint.sh"]o
+
+# Copy SSL key to apache directory
+COPY ./etc/apache/ssl/docker-selfsigned.crt /etc/apache2/ssl/
+COPY ./etc/apache/ssl/docker-selfsigned.key /etc/apache2/ssl/
+COPY ./etc/apache/ports.conf /etc/apache2/
+RUN a2enmod rewrite
+RUN a2enmod ssl
+
+EXPOSE 80
+EXPOSE 443
+

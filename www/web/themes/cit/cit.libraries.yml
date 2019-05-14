@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/cit.style.css: {}
+  js:
+    assets/js/cit.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a07fe50976cc0634e749a3bc2342bb33",
+    "content-hash": "7bf22bbb0c0c2ee88152b0fbba47517a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1774,6 +1774,65 @@
             }
         },
         {
+            "name": "drupal/api_ai_webhook",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/api_ai_webhook.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/api_ai_webhook-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "b2cbff2375ce3f0737d01d5f35c7de79a5608053"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "iboldurev/api-ai-php": "^0.2.5"
+            },
+            "require-dev": {
+                "drupal/chatbot_api": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1532221984",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gambry",
+                    "homepage": "https://www.drupal.org/user/400462"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "API.ai Webhook integration",
+            "homepage": "https://www.drupal.org/project/api_ai_webhook",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/api_ai_webhook",
+                "issues": "https://www.drupal.org/project/issues/api_ai_webhook"
+            }
+        },
+        {
             "name": "drupal/back_to_top",
             "version": "1.0.0",
             "source": {
@@ -2331,17 +2390,17 @@
         },
         {
             "name": "drupal/components",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/components.git",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "72af8ff1ca842556ee4b95335595c24703acdb75"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2352,8 +2411,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1461060840",
+                    "version": "8.x-1.1",
+                    "datestamp": "1556870881",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5253,6 +5312,61 @@
             "time": "2019-04-02T21:11:56+00:00"
         },
         {
+            "name": "drupal/radix",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/radix.git",
+                "reference": "8.x-4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.3.zip",
+                "reference": "8.x-4.3",
+                "shasum": "7a649fb858548aa2831496e236af5cb145a21f9f"
+            },
+            "require": {
+                "drupal/components": "^1.0",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.3",
+                    "datestamp": "1557122307",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Arshad Chummun",
+                    "homepage": "https://arshad.io",
+                    "email": "arshad@chummun.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "dsnopek",
+                    "homepage": "https://www.drupal.org/user/266527"
+                }
+            ],
+            "description": "Radix is a base theme for Drupal. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
+            "homepage": "https://www.drupal.org/project/radix",
+            "support": {
+                "source": "https://git.drupalcode.org/project/radix",
+                "issues": "https://www.drupal.org/project/issues/radix"
+            }
+        },
+        {
             "name": "drupal/recaptcha",
             "version": "2.4.0",
             "source": {
@@ -6782,9 +6896,7 @@
             "version": "1.0.4",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/garand/sticky/zipball/master",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/garand/sticky/zipball/master"
             },
             "type": "component"
         },
@@ -6972,6 +7084,94 @@
             "time": "2018-12-04T20:46:45+00:00"
         },
         {
+            "name": "iboldurev/api-ai-php",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iboldurev/dialogflow.git",
+                "reference": "33aae1b4dc06b52255127f1885378a47e0e76025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iboldurev/dialogflow/zipball/33aae1b4dc06b52255127f1885378a47e0e76025",
+                "reference": "33aae1b4dc06b52255127f1885378a47e0e76025",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiAi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Boldyrev",
+                    "email": "iboldurev@gmail.com",
+                    "homepage": "https://github.com/iboldurev"
+                }
+            ],
+            "description": "API.ai php sdk",
+            "keywords": [
+                "api.ai",
+                "api.ai sdk",
+                "bot"
+            ],
+            "abandoned": "iboldurev/dialogflow",
+            "time": "2016-08-20T08:27:17+00:00"
+        },
+        {
+            "name": "iboldurev/dialogflow",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iboldurev/dialogflow.git",
+                "reference": "b0aef50e1ccacbe86ca8ff173b5ef9f229d296c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iboldurev/dialogflow/zipball/b0aef50e1ccacbe86ca8ff173b5ef9f229d296c8",
+                "reference": "b0aef50e1ccacbe86ca8ff173b5ef9f229d296c8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DialogFlow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Boldyrev",
+                    "email": "iboldurev@gmail.com",
+                    "homepage": "https://github.com/iboldurev"
+                }
+            ],
+            "description": "Dialogflow php sdk",
+            "keywords": [
+                "Dialogflow",
+                "Dialogflow sdk",
+                "api.ai",
+                "bot"
+            ],
+            "time": "2017-10-27T19:44:35+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
             "source": {
@@ -7064,9 +7264,7 @@
             "version": "1.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/kenwheeler/slick/zipball/master",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/kenwheeler/slick/zipball/master"
             },
             "type": "component"
         },
@@ -8729,7 +8927,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",

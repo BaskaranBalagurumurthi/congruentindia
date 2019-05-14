@@ -59,7 +59,7 @@
     "drupal/bootstrap_barrio": "^4.17",
     "drupal/bootstrap_sass": "^1.6",
     "drupal/cdn": "^3.1",
-    "drupal/components": "^1.0",
+    "drupal/components": "^1.1",
     "drupal/config_installer": "1.x-dev",
     "drupal/console": "~1.0",
     "drupal/core": "^8.6.0",
@@ -120,7 +120,10 @@
     "kenwheeler/slick": "^1.8",
     "league/iso3166": "^2.1",
     "oomphinc/composer-installers-extender": "^1.1",
-    "drupal/block_class": "^1.0"
+    "drupal/block_class": "^1.0",
+    "drupal/radix": "^4.3",
+    "iboldurev/dialogflow": "^0.3.0",
+    "drupal/api_ai_webhook": "^1.0"
   },
   "require-dev": {
     "behat/mink": "~1.7",
