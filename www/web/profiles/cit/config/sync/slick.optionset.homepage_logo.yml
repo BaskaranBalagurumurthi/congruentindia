@@ -43,7 +43,7 @@ options:
     respondTo: window
     rtl: false
     rows: 1
-    slidesPerRow: 3
+    slidesPerRow: 5
     slide: ''
     slidesToShow: 1
     slidesToScroll: 1
@@ -52,7 +52,7 @@ options:
     swipeToSlide: false
     edgeFriction: 0.35
     touchMove: true
-    touchThreshold: 5
+    touchThreshold: 2
     useCSS: true
     cssEase: ease
     cssEaseBezier: ''

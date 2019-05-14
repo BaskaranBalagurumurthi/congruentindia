@@ -56,16 +56,12 @@ display:
         options:
           offset: 0
       style:
-        type: grid
+        type: blazy
         options:
-          grouping: {  }
-          columns: 3
-          automatic_width: false
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: 'clearfix col-sm-4 col-md-4 col-lg-4'
-          row_class_default: true
-          row_class_custom: ''
+          style: grid
+          grid: 3
+          grid_medium: 2
+          grid_small: 1
       row:
         type: fields
       fields:

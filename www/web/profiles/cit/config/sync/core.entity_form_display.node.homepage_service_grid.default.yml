@@ -10,7 +10,6 @@ dependencies:
     - node.type.homepage_service_grid
   module:
     - image
-    - link
     - path
     - text
 id: node.homepage_service_grid.default
@@ -27,10 +26,10 @@ content:
   field_more_info:
     weight: 123
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: text_textfield
     region: content
   field_service_description:
     weight: 122

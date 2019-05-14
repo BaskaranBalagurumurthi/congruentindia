@@ -1,16 +1,17 @@
-uuid: d9aaf0c7-9998-4c37-ae92-f51d6b2c8f42
+uuid: b5b259c7-ca31-4d4b-87a3-d821f0ed1c25
 langcode: en
 status: true
 dependencies:
   module:
-    - link
     - node
+    - text
 id: node.field_more_info
 field_name: field_more_info
 entity_type: node
-type: link
-settings: {  }
-module: link
+type: text
+settings:
+  max_length: 255
+module: text
 locked: false
 cardinality: 1
 translatable: true

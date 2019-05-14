@@ -1,4 +1,4 @@
-uuid: a755194a-ea86-40aa-bcf9-44f5f03a563a
+uuid: 1153c918-325b-449e-b5f6-511458708aa1
 langcode: en
 status: true
 dependencies:
@@ -6,18 +6,16 @@ dependencies:
     - field.storage.node.field_more_info
     - node.type.homepage_service_grid
   module:
-    - link
+    - text
 id: node.homepage_service_grid.field_more_info
 field_name: field_more_info
 entity_type: node
 bundle: homepage_service_grid
 label: 'More Info'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  link_type: 17
-  title: 1
-field_type: link
+settings: {  }
+field_type: text

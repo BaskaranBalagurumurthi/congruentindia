@@ -9,7 +9,6 @@ dependencies:
     - node.type.homepage_service_grid
   module:
     - image
-    - link
     - text
     - user
 id: node.homepage_service_grid.default
@@ -19,26 +18,21 @@ mode: default
 content:
   field_more_info:
     weight: 103
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    type: link
+    type: text_default
     region: content
   field_service_description:
     weight: 102
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_service_image:
     weight: 101
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -47,7 +41,7 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
