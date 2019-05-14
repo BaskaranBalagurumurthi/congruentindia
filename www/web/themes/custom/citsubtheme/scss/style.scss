@@ -151,3 +151,74 @@ ol.breadcrumb {
         display: none !important;
     }
 }
+
+.view-homepage-welcome-grid {
+    li {
+        border: none;
+    }
+    .views-field-title {
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid $menu-top-border;
+        font-size: $font-size-lg - 0.25;
+        padding: 8px 8px;
+    }
+    .views-field-body {
+        text-align: center;
+        padding-top: 8px; 
+    }
+}
+
+.view-homepage-service-grid {
+    li {
+        border: none;
+    }
+    ul > li :hover {
+        background: red;
+    }
+    .views-field-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: $font-size-md;
+        a {
+            color: $service-grid-font;
+            text-decoration: none;
+        }
+    }
+    .moreinfo {
+        border: 2px solid $white;
+        padding: 10px 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+        
+    }
+    .field-content {
+        a:hover,
+    a:focus,
+    .link:hover,
+    .link:focus {
+        color: $white;
+        border: 2px solid $menu-top-border;
+        background-color: $menu-top-border;
+    }
+  }
+}
+
+.views-field-field-more-info {
+    text-align: center;
+}
+
+#block-congruentaleadingoffshoreonsitesoftwaredevelopmentcompany {
+    h2 {
+        font-size: $font-size-lg + 0.25rem; 
+        text-align: center;
+        @include respond-below(md) {
+            font-size: $font-size-md;
+        }
+    }
+    font-size: $font-size-sm;
+    text-align: justify;
+    line-height: 25px;
+}
+
