@@ -131,10 +131,10 @@ h1.title {
 }
 
 // Social icon
-.fa-linkedin {
-    background : $linkedin;
-    color: $white;
-}
+//.fa-linkedin {
+    //background : $linkedin;
+  //  color: $white;
+//}
 
 // Content
 .content-gray {
@@ -222,3 +222,8 @@ ol.breadcrumb {
     line-height: 25px;
 }
 
+.view-featured-client-logo {
+    li {
+        border: none;
+    }
+}

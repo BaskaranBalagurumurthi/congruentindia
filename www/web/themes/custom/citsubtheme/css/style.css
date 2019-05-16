@@ -8002,6 +8002,13 @@ form .form-type-textarea {
   .phonenumber .link:focus {
     color: #FFFFFF;
     text-decoration: none; }
+  @media (max-width: 1160px) {
+    .phonenumber {
+      font-size: 9pt; } }
+
+@media (max-width: 1135px) {
+  .headerParent {
+    display: none; } }
 
 .mainnavigation-topborder {
   border-top: 2px solid #ce312a;
@@ -8014,6 +8021,16 @@ form .form-type-textarea {
   .cit-primary {
     background-color: #ce312a; } }
 
+/*#page{
+    padding-top: 77px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}*/
 /**
  * @file
  * Styles for the help block.
@@ -10718,10 +10735,6 @@ h1.title {
   .sidebar h2 {
     border-bottom: none; }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: #FFFFFF; }
-
 .content-gray {
   color: #414242;
   font-size: 0.9375rem; }
@@ -10788,3 +10801,6 @@ ol.breadcrumb {
     @media (max-width: 991px) {
       #block-congruentaleadingoffshoreonsitesoftwaredevelopmentcompany h2 {
         font-size: 1.125rem; } }
+
+.view-featured-client-logo li {
+  border: none; }

@@ -68,7 +68,18 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
         color: $white;
         text-decoration: none;
     }
+
+    @media (max-width: 1160px) {
+        font-size: 9pt;
+    }
 }
+
+@media (max-width: 1135px) {
+    .headerParent{
+        display: none;
+    }
+}
+
 
 .mainnavigation-topborder {
     border-top: 2px solid $menu-top-border;
@@ -86,3 +97,14 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
         background-color: $menu-top-border;
     }
 }
+
+/*#page{
+    padding-top: 77px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}*/
