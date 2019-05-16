@@ -22,7 +22,7 @@ services:
 #      - ./etc/apache/sites-available:/etc/apache2/sites-available 
 
     extra_hosts:
-      - "sf-dr.local:192.168.61.89"
+      - "fde96ba9.ngrok.io:35.167.134.26"
 
   mysql:
     image: mysql:5.6

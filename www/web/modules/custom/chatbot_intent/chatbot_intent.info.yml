@@ -1,0 +1,7 @@
+name: 'chatbot_intent'
+type: module
+description: 'Chatbot plugin integration with Dialogflow'
+core: 8.x
+package: 'Custom'
+dependencies:
+        - chatbot_api

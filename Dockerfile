@@ -93,3 +93,14 @@ RUN a2enmod ssl
 EXPOSE 80
 EXPOSE 443
 
+# Download console.
+RUN curl https://drupalconsole.com/installer -L -o drupal.phar
+
+# Install console.
+RUN mv drupal.phar /usr/local/bin/drupal && \
+    chmod +x /usr/local/bin/drupal && \
+    drupal init --override
+
+WORKDIR /var/www/web
+
+RUN drupal settings:set checked "true"
