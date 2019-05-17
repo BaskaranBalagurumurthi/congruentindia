@@ -98,7 +98,7 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
     }
 }
 
-/*#page{
+#page{
     padding-top: 77px;
 }
 
@@ -107,4 +107,56 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
     width: 100%;
     top: 0px;
     z-index: 100;
-}*/
+    background: $white;
+}
+
+.hamburgerMenu{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .hamburgerMenu{
+        display: block !important;
+        position: fixed;
+        right: 5px;
+        top: 12px;
+        z-index: 100;
+        color: $white;
+    }
+
+    .collapse:not(.show){
+        display: none !important;
+    }
+
+    #navbar-main.navbar.navbar-expand-lg {
+        position: fixed;
+        right: 0px;
+        /*height: calc(100% - 60px);*/
+        overflow: auto;
+        width: 310px;
+        display: block;
+        top: 60px;
+    }
+
+    .collapse.show{
+        display: block !important;
+    }
+
+    .collapse.show ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar-expand-sm .navbar-collapse {
+        display: block !important;
+        flex-basis: inherit; }
+
+}
+
+@media (min-width: 991px){
+    .navbar-expand-sm .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto; }
+}
+
