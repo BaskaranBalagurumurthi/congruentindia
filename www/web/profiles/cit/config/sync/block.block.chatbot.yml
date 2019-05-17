@@ -1,0 +1,20 @@
+uuid: 8a094ad0-711e-4ef6-9dca-2c2fcc45a73a
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_chatbot
+  theme:
+    - cit
+id: chatbot
+theme: cit
+region: footer
+weight: 0
+provider: null
+plugin: chatbot_block
+settings:
+  id: chatbot_block
+  label: 'Chat Bot'
+  provider: drupal_chatbot
+  label_display: '0'
+visibility: {  }

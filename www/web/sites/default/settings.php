@@ -283,6 +283,9 @@ $config_directories = array('sync' => $app_root . '/profiles/cit/config/sync');
  */
 $settings['hash_salt'] = 'z4lkYOOoO1g4U0xGETTpYwJbJhKX9HRQX_wtV3-PATm3MkQ2F-GpCs5okSHt_bnRVD4YRj5FSA';
 
+# Developer token
+$settings['api_ai_webhook_developer_token'] = '8195615edf384945880adbecfe49b22d';
+
 /**
  * Deployment identifier.
  *

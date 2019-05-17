@@ -1,7 +1,5 @@
 auth:
-  type: basic
-  values:
-    username: admin
-    password: xxxxx
+  type: none
+  values: {  }
 _core:
   default_config_hash: C5H89gkKwqNz9-vbwXsDSscqVUm4pzRORQ4fureS3pM

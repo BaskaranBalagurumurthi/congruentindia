@@ -1,0 +1,7 @@
+droogle.default_controller_handleRequest:
+         path: '/google-assistant-request'
+         defaults:
+                _controller: '\Drupal\droogle\Controller\DefaultController::handleRequest'
+                _title: 'Handle Request'
+         requirements:
+                _access: 'TRUE'

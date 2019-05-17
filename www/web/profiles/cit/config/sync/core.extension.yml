@@ -10,6 +10,7 @@ module:
   chatbot_api: 0
   chatbot_api_apiai: 0
   chatbot_api_entities: 0
+  chatbot_intent: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -19,6 +20,8 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  droogle: 0
+  drupal_chatbot: 0
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0

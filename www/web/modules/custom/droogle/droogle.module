@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains droogle.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function droogle_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the droogle module.
+    case 'help.page.droogle':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Chatbot integration with dialogflow google assistant') . '</p>';
+      return $output;
+
+    default:
+  }
+}
