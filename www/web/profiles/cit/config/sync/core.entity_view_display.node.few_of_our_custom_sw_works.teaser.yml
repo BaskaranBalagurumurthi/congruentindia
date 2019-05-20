@@ -1,0 +1,20 @@
+uuid: 4764ed79-b308-4bfb-9550-96a51f3e3bd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.few_of_our_custom_sw_works
+  module:
+    - user
+id: node.few_of_our_custom_sw_works.teaser
+targetEntityType: node
+bundle: few_of_our_custom_sw_works
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

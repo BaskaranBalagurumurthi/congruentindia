@@ -5,11 +5,18 @@ dependencies:
   config:
     - field.field.node.testimonials.field_testimonial_description
     - field.field.node.testimonials.field_testimonial_image
+    - field.field.node.testimonials.layout_builder__layout
     - node.type.testimonials
   module:
     - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+    allow_custom: false
+    enabled: false
 id: node.testimonials.default
 targetEntityType: node
 bundle: testimonials
@@ -36,4 +43,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  layout_builder__layout: true

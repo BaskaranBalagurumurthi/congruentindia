@@ -1,0 +1,9 @@
+uuid: 00942194-8a70-4ca8-af10-fd7880971ce5
+langcode: en
+status: true
+dependencies: {  }
+id: title_html_image
+label: 'Title html image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

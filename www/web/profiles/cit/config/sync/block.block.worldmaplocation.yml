@@ -12,7 +12,7 @@ dependencies:
 id: worldmaplocation
 theme: citsubtheme
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:299d1800-190e-4fea-b3d0-c082ee51647b'
 settings:

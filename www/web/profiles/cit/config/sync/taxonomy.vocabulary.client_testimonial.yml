@@ -1,0 +1,9 @@
+uuid: 39a93c94-1428-4543-b307-070bc527f949
+langcode: en
+status: true
+dependencies: {  }
+name: 'Client Testimonial'
+vid: client_testimonial
+description: 'Client speak'
+hierarchy: 0
+weight: 0

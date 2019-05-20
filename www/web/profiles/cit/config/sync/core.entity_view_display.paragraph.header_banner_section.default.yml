@@ -1,0 +1,41 @@
+uuid: c26bbe8f-5eb8-4275-af30-baeeef6382ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_banner_section.field_background_image
+    - field.field.paragraph.header_banner_section.field_header_body_text
+    - field.field.paragraph.header_banner_section.field_header_button
+    - paragraphs.paragraphs_type.header_banner_section
+  module:
+    - image
+    - text
+id: paragraph.header_banner_section.default
+targetEntityType: paragraph
+bundle: header_banner_section
+mode: default
+content:
+  field_background_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_header_body_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_header_button:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

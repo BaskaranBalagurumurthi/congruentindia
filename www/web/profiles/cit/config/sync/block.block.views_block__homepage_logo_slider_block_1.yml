@@ -12,7 +12,7 @@ dependencies:
 id: views_block__homepage_logo_slider_block_1
 theme: citsubtheme
 region: content
-weight: -7
+weight: -10
 provider: null
 plugin: 'views_block:homepage_logo_slider-block_1'
 settings:

@@ -1,0 +1,21 @@
+uuid: 72691622-9d0f-45f5-b900-394075a5dfe4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_header_button
+    - paragraphs.paragraphs_type.header_banner_section
+  module:
+    - text
+id: paragraph.header_banner_section.field_header_button
+field_name: field_header_button
+entity_type: paragraph
+bundle: header_banner_section
+label: 'Header Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,44 @@
+uuid: 4b13675e-6242-42df-a1fa-5b8ddf0cc2cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.client_testimonial.field_client_logo
+    - field.field.taxonomy_term.client_testimonial.field_testimonial
+    - taxonomy.vocabulary.client_testimonial
+  module:
+    - image
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: taxonomy_term.client_testimonial.default
+targetEntityType: taxonomy_term
+bundle: client_testimonial
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_client_logo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_testimonial:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

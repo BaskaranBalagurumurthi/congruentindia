@@ -1,0 +1,19 @@
+uuid: 5b851254-da57-4d09-b3d5-51bf4a2ce0fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+id: taxonomy_term.field_testimonial
+field_name: field_testimonial
+entity_type: taxonomy_term
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

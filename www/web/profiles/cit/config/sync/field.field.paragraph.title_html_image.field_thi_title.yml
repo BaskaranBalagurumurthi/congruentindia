@@ -1,0 +1,21 @@
+uuid: ebe25be8-8825-4c2c-93b8-2f45d8791e3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_thi_title
+    - paragraphs.paragraphs_type.title_html_image
+  module:
+    - text
+id: paragraph.title_html_image.field_thi_title
+field_name: field_thi_title
+entity_type: paragraph
+bundle: title_html_image
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

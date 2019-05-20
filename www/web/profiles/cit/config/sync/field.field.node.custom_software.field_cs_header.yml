@@ -1,0 +1,36 @@
+uuid: 153b773a-1bae-481f-ba1a-e0fa2bb55f8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cs_header
+    - node.type.custom_software
+    - paragraphs.paragraphs_type.header_banner_section
+    - paragraphs.paragraphs_type.title_html_image
+  module:
+    - entity_reference_revisions
+id: node.custom_software.field_cs_header
+field_name: field_cs_header
+entity_type: node
+bundle: custom_software
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      header_banner_section: header_banner_section
+      title_html_image: title_html_image
+    target_bundles_drag_drop:
+      header_banner_section:
+        enabled: true
+        weight: 3
+      title_html_image:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

@@ -1,0 +1,43 @@
+uuid: f72c84cf-b4ef-4049-a594-a6aaf6de87a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.our_custom_software.field_learn_more
+    - field.field.node.our_custom_software.field_software_image
+    - node.type.our_custom_software
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: node.our_custom_software.default
+targetEntityType: node
+bundle: our_custom_software
+mode: default
+content:
+  field_learn_more:
+    weight: 102
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_software_image:
+    weight: 101
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

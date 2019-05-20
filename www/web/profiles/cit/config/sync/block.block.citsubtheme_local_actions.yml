@@ -9,7 +9,7 @@ _core:
 id: citsubtheme_local_actions
 theme: citsubtheme
 region: content
-weight: -9
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:

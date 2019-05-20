@@ -1,0 +1,20 @@
+uuid: f3833542-6e1e-4a19-9655-cd05d0cf51cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.our_custom_software
+  module:
+    - user
+id: node.our_custom_software.teaser
+targetEntityType: node
+bundle: our_custom_software
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,34 @@
+uuid: 85a1f32f-e78a-46b2-bad5-3a42ba09dbab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cs_how_we_help_you
+    - node.type.custom_software
+    - paragraphs.paragraphs_type.title_html_image
+  module:
+    - entity_reference_revisions
+id: node.custom_software.field_cs_how_we_help_you
+field_name: field_cs_how_we_help_you
+entity_type: node
+bundle: custom_software
+label: 'How we help you'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      title_html_image: title_html_image
+    target_bundles_drag_drop:
+      header_banner_section:
+        weight: 3
+        enabled: false
+      title_html_image:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

@@ -16,4 +16,5 @@ permissions:
   - 'administer stickynav'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view background image'
   - 'view media'

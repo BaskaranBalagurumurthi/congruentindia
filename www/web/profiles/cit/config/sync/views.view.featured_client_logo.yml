@@ -57,9 +57,9 @@ display:
       style:
         type: blazy
         options:
-          style: column
+          style: grid
           grid: 5
-          grid_medium: 6
+          grid_medium: 3
           grid_small: 1
       row:
         type: fields
@@ -194,6 +194,15 @@ display:
     display_options:
       display_extenders: {  }
       path: featured-client
+      menu:
+        type: none
+        title: 'Featured Client'
+        description: ''
+        expanded: false
+        parent: 'menu_link_content:d23026cb-42b8-4ee3-8809-055d895abd97'
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:

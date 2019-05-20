@@ -11,7 +11,7 @@ _core:
 id: citsubtheme_breadcrumbs
 theme: citsubtheme
 region: breadcrumb
-weight: 0
+weight: -15
 provider: null
 plugin: system_breadcrumb_block
 settings:

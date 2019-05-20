@@ -1,0 +1,9 @@
+uuid: eebb7f21-7165-4dbf-9f70-10fef884baee
+langcode: en
+status: true
+dependencies: {  }
+id: header_banner_section
+label: 'Header Banner Section'
+icon_uuid: null
+description: 'Add header image, text, button etc.,'
+behavior_plugins: {  }

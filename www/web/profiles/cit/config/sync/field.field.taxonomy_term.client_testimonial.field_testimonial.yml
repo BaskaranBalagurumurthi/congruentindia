@@ -1,0 +1,21 @@
+uuid: 8020b2dc-a224-400b-a242-305d726c3177
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_testimonial
+    - taxonomy.vocabulary.client_testimonial
+  module:
+    - text
+id: taxonomy_term.client_testimonial.field_testimonial
+field_name: field_testimonial
+entity_type: taxonomy_term
+bundle: client_testimonial
+label: Testimonial
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

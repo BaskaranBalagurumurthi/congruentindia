@@ -1,0 +1,29 @@
+uuid: 11388527-c400-489c-a560-563c58d9ef20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cs_client_speak
+    - node.type.custom_software
+    - taxonomy.vocabulary.client_testimonial
+id: node.custom_software.field_cs_client_speak
+field_name: field_cs_client_speak
+entity_type: node
+bundle: custom_software
+label: 'Client speak'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      client_testimonial: client_testimonial
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

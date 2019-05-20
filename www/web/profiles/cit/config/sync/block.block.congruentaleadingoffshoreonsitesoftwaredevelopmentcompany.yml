@@ -12,7 +12,7 @@ dependencies:
 id: congruentaleadingoffshoreonsitesoftwaredevelopmentcompany
 theme: citsubtheme
 region: content
-weight: -4
+weight: -7
 provider: null
 plugin: 'block_content:d932c408-8554-4005-8d6a-8e8063c94f7c'
 settings:

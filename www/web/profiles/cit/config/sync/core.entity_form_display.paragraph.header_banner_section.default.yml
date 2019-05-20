@@ -1,0 +1,45 @@
+uuid: ff4337cf-6cb9-4267-be4f-d8cf80d4801e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_banner_section.field_background_image
+    - field.field.paragraph.header_banner_section.field_header_body_text
+    - field.field.paragraph.header_banner_section.field_header_button
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.header_banner_section
+  module:
+    - image
+    - text
+id: paragraph.header_banner_section.default
+targetEntityType: paragraph
+bundle: header_banner_section
+mode: default
+content:
+  field_background_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_header_body_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_header_button:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

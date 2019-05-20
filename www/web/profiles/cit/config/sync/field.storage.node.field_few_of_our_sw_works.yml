@@ -1,0 +1,20 @@
+uuid: ae47fc6b-d7ed-4b43-b27a-44cf82df4cb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_few_of_our_sw_works
+field_name: field_few_of_our_sw_works
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

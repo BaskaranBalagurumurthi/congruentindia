@@ -1,0 +1,21 @@
+uuid: 3df7f87c-1c82-45f6-bf00-96b4db98da33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_few_of_our_sw_works
+    - node.type.few_of_our_custom_sw_works
+  module:
+    - text
+id: node.few_of_our_custom_sw_works.field_few_of_our_sw_works
+field_name: field_few_of_our_sw_works
+entity_type: node
+bundle: few_of_our_custom_sw_works
+label: 'Few of our SW Works'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,22 @@
+uuid: 6f01876b-59bf-4d83-8559-a24f1424b1f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.few_of_our_custom_sw_works
+id: node.few_of_our_custom_sw_works.promote
+field_name: promote
+entity_type: node
+bundle: few_of_our_custom_sw_works
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

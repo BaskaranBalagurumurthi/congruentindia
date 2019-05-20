@@ -1,0 +1,21 @@
+uuid: f86acf95-4e5e-4a40-9280-3f73e7380813
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_learn_more
+    - node.type.our_custom_software
+  module:
+    - text
+id: node.our_custom_software.field_learn_more
+field_name: field_learn_more
+entity_type: node
+bundle: our_custom_software
+label: 'Learn more'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

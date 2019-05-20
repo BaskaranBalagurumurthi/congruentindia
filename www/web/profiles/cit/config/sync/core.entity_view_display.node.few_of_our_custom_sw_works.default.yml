@@ -1,0 +1,28 @@
+uuid: 9f0a450d-558d-47c9-9dcd-f3f47faef0d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.few_of_our_custom_sw_works.field_few_of_our_sw_works
+    - node.type.few_of_our_custom_sw_works
+  module:
+    - text
+    - user
+id: node.few_of_our_custom_sw_works.default
+targetEntityType: node
+bundle: few_of_our_custom_sw_works
+mode: default
+content:
+  field_few_of_our_sw_works:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
