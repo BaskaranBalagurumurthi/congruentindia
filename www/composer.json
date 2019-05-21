@@ -59,7 +59,6 @@
     "drupal/bootstrap_barrio": "^4.17",
     "drupal/bootstrap_sass": "^1.6",
     "drupal/cdn": "^3.1",
-    "drupal/components": "^1.0",
     "drupal/config_installer": "1.x-dev",
     "drupal/console": "~1.0",
     "drupal/core": "^8.6.0",
@@ -135,7 +134,10 @@
     "drupal/smtp": "^1.0@beta",
     "drupal/stickynav": "^1.1",
     "drupal/cheeseburger_menu": "^4.1",
-    "drupal/fontawesome_menu_icons": "^1.5"
+    "drupal/fontawesome_menu_icons": "^1.5",
+    "drupal/bg_image_formatter": "^1.6",
+    "drupal/components": "^1.1",
+    "drupal/bootstrap_library": "^1.11"
   },
   "require-dev": {
     "behat/mink": "~1.7",
