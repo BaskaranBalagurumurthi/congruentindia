@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  {% block footer %}
+  <div class="{{ container }}">
+    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+    <div class="site-footer__top clearfix">
+      <div class="row">
+        <div class="col">
+      {{ page.footer_first }}
+      </div>
+      <div class="col">
+      {{ page.footer_second }}
+      </div>
+      <div class="col">
+      <section class="row region contact-us">
+        <ul class="fa-ul nav">
+          <li class="nav-item"><i class="fa-li fa fa-phone"></i>USA : <a href="tel:+1-844-567-5232">+1-844-567-5232</a></li>
+          <li class="nav-item"><i class="fa-li fa fa-phone"></i>UK : <a href="tel:+44-800-031-5040">+44-800-031-5040 </a></li>
+          <li class="nav-item"><i class="fa-li fa fa-phone"></i>AUS : <a href="tel:+61-180-074-6461">+61-180-074-6461</a></li>
+          <li class="nav-item"><i class="fa-li fa fa-phone"></i>IND : <a href="tel:+91-44-4290-7900">+91-44-4290-7900</a></li>
+          <li class="nav-item"><i class="fa-li fa fa-envelope"></i>IND : <a href="mail:info@congruentsoft.com">info@congruentsoft.com</a></li>
+        </ul>
+      </section>
+      </div>
+      {{ page.footer_third }}
+      <div class="col">
+      {{ page.footer_fourth }}
+      </div>
+      <div class="col">
+      <section class="row region region-footer-second">
+        <div>
+          <img src="{{ base_path }}/images/footer-microsoft-partner-logo.png" alt="Microsoft partner logo">
+          <img src="{{ base_path }}/images/footer-salesforce-partner-logo.png" alt="salseforce partner logo">
+      </section>
+      </div>
+    </div>
+    </div>
+    {% endif %}
+    {% if page.footer_fifth %}
+    <div class="site-footer__bottom">
+      {{ page.footer_fifth }}
+    </div>
+    {% endif %}
+  </div>
+  {% endblock %}
+</footer>

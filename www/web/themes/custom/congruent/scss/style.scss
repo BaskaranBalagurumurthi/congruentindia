@@ -1,0 +1,255 @@
+/* 
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+    background: $white;
+}
+
+
+/* COLORS 
+--------------------------------------------------*/
+
+a {
+    color: $accent-shade;
+}
+
+.bg-inverse {
+    background: $primary-shade !important;
+}
+
+.site-footer {
+    background: $accent-shade !important;
+}
+
+.menu--main li a {
+    color: $primary-shade;
+}
+
+.menu--account li a {
+    color: $primary-shade;
+}
+
+.site-name-slogan a {
+    text-decoration: none;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+.slick {
+    width: 100%;
+}
+
+.slick>div {
+    margin: 0 15px;
+}
+
+.column-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.site-footer {
+    background: $quarter_black !important;
+    font-family: $font-family-base;
+    font-size: 13px;
+    a,
+    .link {
+        color: $footer_font_color;
+    }
+
+    .contact-us a {
+        text-decoration: underline;
+    }
+    .contact-us a:hover, a:focus {
+        color: $footer_contact_hover;
+    }
+
+    a:hover,
+    a:focus,
+    .link:hover,
+    .link:focus {
+        color: $footer_font_color;
+        text-decoration: underline;
+    }
+}
+
+.site-footer__bottom {
+    border-top: none;
+    margin-top: 0;
+    & p {
+        margin-bottom: 0rem;
+    }
+}
+
+.region-footer-fifth {
+    justify-content: center;
+}
+
+#block-congruent-copyright {
+    color: $footer_font_color;
+}
+.navbar-brand {
+    background: url('../images/top-banner-new-sprites.png');
+    background-position: 0px 0px;
+    width: 295px;
+    height: 61px;
+    @include respond-below(md) {
+        background-color: $menu-top-border;
+        background-position: -9px -341px;
+        width: 259px;
+        height: 53px;
+    }
+}
+
+.partners-logo {
+    background: url('../images/top-banner-new-sprites.png');
+    background-position: -160px -85px;
+    width: 291px;
+    height: 55px;
+    //@include respond-below(md) {
+      //  display: none;
+    //}
+}
+
+
+.url-to-video-container {
+    .loader {
+    top: 80px;
+    }
+    .url-to-video-player {
+        .play-button {
+            top: 90px;
+        }
+    }
+}
+
+.leadership-name {
+    background-color: $leadership-name-bg;
+}
+
+h1.title {
+    color: $menu-top-border;
+    font-size: $font-size-lg;
+}
+
+// Side bar
+.sidebar {
+    h2 {
+        border-bottom: none;
+    } 
+    border-left: 1px solid $sidebar-border;  
+}
+
+// Social icon
+//.fa-linkedin {
+    //background : $linkedin;
+  //  color: $white;
+//}
+
+// Content
+.content-gray {
+    color: $content-gray;
+    font-size: $font-size-base;
+}
+
+ol.breadcrumb {
+    background: none;
+}
+
+.hide-xs-md {
+    @include respond-below(md) {
+        display: none !important;
+    }
+}
+
+.view-homepage-welcome-grid {
+    li {
+        border: none;
+    }
+    .views-field-title {
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid $menu-top-border;
+        font-size: $font-size-lg - 0.25;
+        padding: 8px 8px;
+    }
+    .views-field-body {
+        text-align: center;
+        padding-top: 8px; 
+    }
+}
+
+.view-homepage-service-grid {
+    li {
+        border: none;
+    }
+    ul > li :hover {
+        background: red;
+    }
+    .views-field-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: $font-size-md;
+        a {
+            color: $service-grid-font;
+            text-decoration: none;
+        }
+    }
+    .moreinfo {
+        border: 2px solid $white;
+        padding: 10px 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+        
+    }
+    .field-content {
+        a:hover,
+    a:focus,
+    .link:hover,
+    .link:focus {
+        color: $white;
+        border: 2px solid $menu-top-border;
+        background-color: $menu-top-border;
+    }
+  }
+}
+
+.views-field-field-more-info {
+    text-align: center;
+}
+
+#block-congruentaleadingoffshoreonsitesoftwaredevelopmentcompany {
+    h2 {
+        font-size: $font-size-lg + 0.25rem; 
+        text-align: center;
+        @include respond-below(md) {
+            font-size: $font-size-md;
+        }
+    }
+    font-size: $font-size-sm;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.view-featured-client-logo {
+    li {
+        border: none;
+    }
+}

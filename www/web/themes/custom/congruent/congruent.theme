@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the SASS Starterkit subtheme.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+  *
+  * Implements hoot_preprocess()
+  */
+function congruent_preprocess(&$variables)
+{
+    $variables['base_path'] = base_path() . $variables['directory'];
+}
