@@ -6,7 +6,7 @@ description: 'Bootstrap CIT subtheme.'
 base theme: bootstrap_barrio
 
 libraries:
-  - citsubtheme/bootstrap_cdn
+  - citsubtheme/bootstrap
   - citsubtheme/global-styling
 
 regions:
