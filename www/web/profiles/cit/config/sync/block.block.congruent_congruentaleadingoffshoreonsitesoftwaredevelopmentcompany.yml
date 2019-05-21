@@ -1,0 +1,31 @@
+uuid: 73c94cd7-e98e-4e5a-8297-547cf0bb571a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d932c408-8554-4005-8d6a-8e8063c94f7c'
+  module:
+    - block_content
+    - system
+  theme:
+    - congruent
+id: congruent_congruentaleadingoffshoreonsitesoftwaredevelopmentcompany
+theme: congruent
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:d932c408-8554-4005-8d6a-8e8063c94f7c'
+settings:
+  id: 'block_content:d932c408-8554-4005-8d6a-8e8063c94f7c'
+  label: 'Congruent - A Leading Offshore & Onsite Software Development Company'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

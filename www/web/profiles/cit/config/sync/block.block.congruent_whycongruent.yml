@@ -1,0 +1,31 @@
+uuid: 411f60c6-e865-4f47-95e5-fe2019ed509b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5afbc8ca-497a-462a-b7d6-268f5337f3e9'
+  module:
+    - block_content
+    - system
+  theme:
+    - congruent
+id: congruent_whycongruent
+theme: congruent
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:5afbc8ca-497a-462a-b7d6-268f5337f3e9'
+settings:
+  id: 'block_content:5afbc8ca-497a-462a-b7d6-268f5337f3e9'
+  label: 'Why Congruent?'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/life-at-congruent\r\n/featured-client\r\n/corporate-culture\r\n/offshore-strategy\r\n/leadership-team\r\n/case-studies\r\n/scrum\r\n/test-driven-development"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: a6c0e6e1-ca81-4350-bc3f-b475637dca93
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - congruent
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: congruent_messages
+theme: congruent
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

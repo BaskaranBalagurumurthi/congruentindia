@@ -1,0 +1,31 @@
+uuid: 217f9a4f-5413-4892-8b18-946f740c3e24
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:299d1800-190e-4fea-b3d0-c082ee51647b'
+  module:
+    - block_content
+    - system
+  theme:
+    - congruent
+id: congruent_worldmaplocation_2
+theme: congruent
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:299d1800-190e-4fea-b3d0-c082ee51647b'
+settings:
+  id: 'block_content:299d1800-190e-4fea-b3d0-c082ee51647b'
+  label: ' Worldmap Location'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /form/location-contact-us-form
+    negate: false
+    context_mapping: {  }

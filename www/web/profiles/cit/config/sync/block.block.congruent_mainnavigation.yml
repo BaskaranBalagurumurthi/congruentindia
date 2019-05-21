@@ -1,0 +1,24 @@
+uuid: 91acf8d6-8e0d-4677-9bbf-d81f1cd462e6
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - congruent
+id: congruent_mainnavigation
+theme: congruent
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

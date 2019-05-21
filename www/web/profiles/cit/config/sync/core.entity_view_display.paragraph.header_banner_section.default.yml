@@ -9,7 +9,11 @@ dependencies:
     - paragraphs.paragraphs_type.header_banner_section
   module:
     - image
+    - layout_builder
     - text
+third_party_settings:
+  layout_builder:
+    sections: {  }
 id: paragraph.header_banner_section.default
 targetEntityType: paragraph
 bundle: header_banner_section
@@ -17,7 +21,7 @@ mode: default
 content:
   field_background_image:
     weight: 0
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -26,14 +30,14 @@ content:
     region: content
   field_header_body_text:
     weight: 1
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_header_button:
     weight: 2
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default

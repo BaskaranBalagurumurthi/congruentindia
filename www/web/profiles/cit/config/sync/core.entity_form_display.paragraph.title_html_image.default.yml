@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.title_html_image.field_thi_description
     - field.field.paragraph.title_html_image.field_thi_image
     - field.field.paragraph.title_html_image.field_thi_title
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.title_html_image
   module:
     - image
@@ -27,8 +26,8 @@ content:
   field_thi_image:
     weight: 1
     settings:
+      preview_image_style: ''
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content

@@ -1,0 +1,20 @@
+uuid: acd66040-f2dc-4f8d-a510-55d55d7763ea
+langcode: en
+status: true
+dependencies:
+  theme:
+    - congruent
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: congruent_local_actions
+theme: congruent
+region: content
+weight: -12
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

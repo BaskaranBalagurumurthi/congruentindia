@@ -1,0 +1,25 @@
+uuid: b6e875dc-c950-4c32-ad22-43df620305ed
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2170a0e7-fe89-4c62-ac37-28cffb12034b'
+  module:
+    - block_content
+  theme:
+    - congruent
+id: congruent_copyright
+theme: congruent
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:2170a0e7-fe89-4c62-ac37-28cffb12034b'
+settings:
+  id: 'block_content:2170a0e7-fe89-4c62-ac37-28cffb12034b'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

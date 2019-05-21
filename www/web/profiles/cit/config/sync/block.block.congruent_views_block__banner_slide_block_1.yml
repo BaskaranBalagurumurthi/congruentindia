@@ -1,0 +1,30 @@
+uuid: d55cfb56-7b50-4a66-beed-321e8c76301c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner_slide
+  module:
+    - system
+    - views
+  theme:
+    - congruent
+id: congruent_views_block__banner_slide_block_1
+theme: congruent
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:banner_slide-block_1'
+settings:
+  id: 'views_block:banner_slide-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 903e4fdd-3340-4cb1-b23c-e4f6b6823199
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - congruent
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: congruent_content
+theme: congruent
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

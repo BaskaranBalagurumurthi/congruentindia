@@ -1,0 +1,20 @@
+uuid: 91b9062c-b26e-428a-8524-661e01f467ed
+langcode: en
+status: true
+dependencies:
+  theme:
+    - congruent
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: congruent_page_title
+theme: congruent
+region: content
+weight: -15
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

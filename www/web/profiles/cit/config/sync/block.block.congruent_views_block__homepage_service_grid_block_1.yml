@@ -1,0 +1,30 @@
+uuid: 6d351268-ce99-4e49-8731-1995c910fea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.homepage_service_grid
+  module:
+    - system
+    - views
+  theme:
+    - congruent
+id: congruent_views_block__homepage_service_grid_block_1
+theme: congruent
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:homepage_service_grid-block_1'
+settings:
+  id: 'views_block:homepage_service_grid-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: a9d0c0e6-cb82-41c2-a8d2-57e7590355c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.office_location
+  module:
+    - system
+    - views
+  theme:
+    - congruent
+id: congruent_views_block__office_location_block_1
+theme: congruent
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:office_location-block_1'
+settings:
+  id: 'views_block:office_location-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /form/location-contact-us-form
+    negate: false
+    context_mapping: {  }
