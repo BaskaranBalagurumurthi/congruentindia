@@ -101,9 +101,32 @@ a {
     justify-content: center;
 }
 
-#block-congruent-copyright {
+#block-congruent-copyright, .footer-text {
     color: $footer_font_color;
 }
+
+.featured-bottom {
+    background-color: $map-bg;
+    justify-content: center;
+    section {
+        justify-content: center;
+    }
+}
+
+.map-width {
+    max-width: 1212px;
+    width: 100%
+}
+
+.map-title {
+    color: $map-title-color;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
 .navbar-brand {
     background: url('../images/top-banner-new-sprites.png');
     background-position: 0px 0px;
@@ -129,18 +152,26 @@ a {
 
 
 .url-to-video-container {
+    @include respond-between(sm, lg) {
+        margin: 0;
+    }
     .loader {
     top: 80px;
     }
     .url-to-video-player {
         .play-button {
-            top: 90px;
+            top: 56%;
         }
     }
 }
 
 .leadership-name {
     background-color: $leadership-name-bg;
+}
+
+.img-left {
+    float: left;
+    padding-right: 15px;
 }
 
 h1.title {
@@ -152,20 +183,46 @@ h1.title {
 .sidebar {
     h2 {
         border-bottom: none;
+        @include respond-between(sm, md) {
+            padding-bottom: 0;
+        }
     } 
     border-left: 1px solid $sidebar-border;  
 }
 
 // Social icon
-//.fa-linkedin {
-    //background : $linkedin;
-  //  color: $white;
-//}
-
+.fa-linkedin-in {
+    background : $linkedin-icon;
+    color: $white;
+}
+.fa-twitter {
+    background : $twitter-icon;
+    color: $white;
+}
+.fa-facebook-f {
+    background : $facebook-icon;
+    color: $white;
+}
+.fa-youtube {
+    background : $youtube-icon;
+    color: $white;
+}
+.fa-slideshare {
+    background : $slideshare-icon;
+    color: $white;
+}
+.social-icon {
+    background-color: $linkedin-icon;
+    padding: 1px;
+}
 // Content
 .content-gray {
     color: $content-gray;
     font-size: $font-size-base;
+    text-align: justify;
+    @include respond-below(md) {
+        font-size: $font-size-xs;
+    }
 }
 
 ol.breadcrumb {
@@ -235,6 +292,7 @@ ol.breadcrumb {
     text-align: center;
 }
 
+// Block
 #block-congruentaleadingoffshoreonsitesoftwaredevelopmentcompany {
     h2 {
         font-size: $font-size-lg + 0.25rem; 
@@ -248,8 +306,45 @@ ol.breadcrumb {
     line-height: 25px;
 }
 
+#block-congruent-whycongruent {
+    h2 {
+        font-size: $font-size-sm;
+        font-weight: bold;
+        color: $dark-black;
+        @include respond-above(md) {
+            padding-bottom: 15px;
+        }
+        @include respond-below(sm) {
+            display: none;
+        }
+    }
+}
+
+#block-congruent-views-block-office-location-block-1{
+    background-color: $office-location-bg;
+    color: $white;
+    a {
+        color: $white;
+    }
+    h2 {
+        text-align: center;
+        padding: 8px;
+    }
+}
+
+#block-congruent-worldmaplocation-2 {
+    padding: 30px;
+}
 .view-featured-client-logo {
     li {
         border: none;
+    }
+}
+
+// Breadcrumb
+.breadcrumb {
+    a {
+        color: $link-gray-dark;
+        text-decoration: underline;
     }
 }

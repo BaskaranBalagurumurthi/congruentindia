@@ -16,6 +16,7 @@ $gray-100: #f8f9fa !default;
 $gray-800: #343a40 !default;
 $link-gray: #222;
 $link-gray-dark: darken($link-gray, 12%);
+
 //$theme-colors: ( primary: $accent-shade, secondary: $primary-shade, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
 //$brand-primary: $accent-shade;
 //$brand-success: $green;
@@ -53,9 +54,17 @@ $menu-li-border: #ece4e4;
 $phonenumber_bg : #545454;
 $leadership-name-bg: #e4e5e6;
 $sidebar-border: #e1e1e1;
-$linkedin : #007bb5;
+$linkedin-icon : #007bb5;
+$facebook-icon : #3C599F;
+$twitter-icon: #32CCFE;
+$youtube-icon : #C52F30;
+$slideshare-icon : #E98325;
 $content-gray : #414242;
 $service-grid-font: #fdb001;
+$dark-black : #0e0d0d;
+$office-location-bg: #404040;
+$map-bg: #f3f3f3;
+$map-title-color: #01363d;
 
 $font-size-md: 18px;
 
