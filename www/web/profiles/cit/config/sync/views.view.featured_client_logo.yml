@@ -60,7 +60,7 @@ display:
           style: grid
           grid: 5
           grid_medium: 3
-          grid_small: 1
+          grid_small: 2
       row:
         type: fields
         options:
