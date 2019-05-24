@@ -1,0 +1,8 @@
+uuid: 0369da7a-da0a-472d-afb7-54acdb6038e9
+langcode: en
+status: true
+dependencies: {  }
+id: bg_image_test
+selector: '#testbg'
+position: 50%
+speed: '0.1'

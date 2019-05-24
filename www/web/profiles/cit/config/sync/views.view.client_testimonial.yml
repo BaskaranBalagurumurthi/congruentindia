@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_client_logo
     - field.storage.taxonomy_term.field_testimonial
+    - image.style.medium
     - taxonomy.vocabulary.client_testimonial
   module:
     - image
@@ -54,8 +55,9 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: none
+        type: some
         options:
+          items_per_page: 3
           offset: 0
       style:
         type: slick
@@ -67,12 +69,12 @@ display:
           caption:
             field_client_logo: '0'
             field_testimonial: '0'
-          optionset_thumbnail: ''
+          optionset_thumbnail: custom_slick
           skin_thumbnail: ''
           thumbnail_position: ''
           grid_header: ''
           grid: null
-          grid_medium: null
+          grid_medium: 2
           grid_small: null
           visible_items: null
           preserve_keys: false
@@ -155,7 +157,7 @@ display:
           click_sort_column: target_id
           type: slick_image
           settings:
-            image_style: ''
+            image_style: medium
             image_link: ''
           group_column: ''
           group_columns: {  }

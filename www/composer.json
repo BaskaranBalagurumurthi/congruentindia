@@ -137,7 +137,8 @@
     "drupal/fontawesome_menu_icons": "^1.5",
     "drupal/bg_image_formatter": "^1.6",
     "drupal/components": "^1.1",
-    "drupal/bootstrap_library": "^1.11"
+    "drupal/bootstrap_library": "^1.11",
+    "drupal/parallax_bg": "^1.0"
   },
   "require-dev": {
     "behat/mink": "~1.7",

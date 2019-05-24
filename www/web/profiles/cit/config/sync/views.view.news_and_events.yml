@@ -8,6 +8,7 @@ dependencies:
     - field.storage.node.field_news_image
     - node.type.news_and_events
   module:
+    - blazy
     - ds
     - image
     - node
@@ -341,16 +342,12 @@ display:
     display_options:
       display_extenders: {  }
       style:
-        type: grid
+        type: blazy
         options:
-          uses_fields: false
-          columns: 3
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: false
-          col_class_custom: 'col col-xs-12 col-sm-6 col-md-4 col-lg-4'
-          row_class_default: false
-          row_class_custom: row
+          style: grid
+          grid: 3
+          grid_medium: 2
+          grid_small: 1
       defaults:
         style: false
         row: false
