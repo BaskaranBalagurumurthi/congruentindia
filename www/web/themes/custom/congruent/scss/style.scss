@@ -257,7 +257,7 @@ ol.breadcrumb {
         border: none;
     }
     ul > li :hover {
-        background: red;
+        background: $content-gray;
     }
     .views-field-title {
         text-align: center;
@@ -340,6 +340,11 @@ ol.breadcrumb {
         border: none;
     }
 }
+.view-news-and-events {
+    li {
+        border: none;
+    }
+}
 
 // Breadcrumb
 .breadcrumb {
@@ -347,4 +352,16 @@ ol.breadcrumb {
         color: $link-gray-dark;
         text-decoration: underline;
     }
+}
+
+.bgimg{
+    background:url('../images/screenshot.png') 50% 0 no-repeat fixed;
+    height:650px;
+    padding:100px 0 0 0;
+}
+
+.newsbg{
+    background:url('../images/news-1.jpg') 50% 0 no-repeat fixed;
+    height:650px;
+    padding:100px 0 0 0;
 }

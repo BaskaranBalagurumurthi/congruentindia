@@ -107,6 +107,13 @@ $superfish-1-background-color-level-fourth: $menu-top-border;
         background: $superfish-1-background-color-level-first;
         li {
           background: $superfish-1-background-color-level-second;
+          a{
+            text-transform: capitalize;
+            font-weight: 100;
+            border-bottom: 1px solid $menu-border-color;
+            border-right: 1px solid $menu-border-color;
+            border-left: 1px solid $menu-border-color;
+          }
           li {
             background: $superfish-1-background-color-level-third;
           }
@@ -119,6 +126,7 @@ $superfish-1-background-color-level-fourth: $menu-top-border;
           }
         }
         &.sfHover {
+          color: $white;
           background: $superfish-1-background-color-level-fourth;
           outline: 0;
           > ul {
