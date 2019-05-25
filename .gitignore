@@ -31,6 +31,7 @@ npm-debug.log
 
 # Ignore node_modules for gulp
 www/web/themes/custom/citsubtheme/node_modules
+www/web/themes/custom/congruent/node_modules
 
 # www/web/sites/development.services.yml
 # www/web/sites/example.settings.local.php
