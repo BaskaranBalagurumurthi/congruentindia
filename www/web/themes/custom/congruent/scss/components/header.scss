@@ -111,6 +111,16 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
 }
 
 @media (max-width: 991px){
+    #header{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+
+    #main-wrapper{
+        margin-top: 60px;
+    }
+
     .hamburgerMenu{
         display: block !important;
         position: fixed;
@@ -127,11 +137,38 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
     #navbar-main.navbar.navbar-expand-lg {
         position: fixed;
         right: 0px;
-        /*height: calc(100% - 60px);*/
+        left: inherit;
+        height: calc(100% - 60px);
         overflow: auto;
         width: 310px;
         display: block;
         top: 60px;
+        z-index: 100;
+    }
+
+    .mainnavigation-topborder{
+        border: 0px !important;
+    }
+
+    li.menuparent > a {
+        font-weight: bold !important;
+    }
+
+    li.menuparent a {
+        border: 0px !important;
+        border-bottom: 1px solid #c5c5c5 !important;
+    }
+
+    #block-congruent-mainnavigation-2 .sf-style-none li:hover{
+        background: #f8f8f8 !important;
+    }
+
+    .sf-clone-parent{
+        display: none;
+    }
+
+    .sf-accordion-toggle{
+        display: none;
     }
 
     .collapse.show{
@@ -142,6 +179,12 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
         list-style: none;
         padding: 0px;
         margin: 0px;
+        width: 100%;
+    }
+
+    .collapse.show ul li a {
+        display: block;
+        width: 100%;
     }
 
     .navbar-expand-sm .navbar-collapse {
@@ -159,3 +202,8 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
 header .navbar-collapse {
     margin:0px;
 }
+
+/*.hamburgerMenu:not(.collapsed){
+    color: #ffffff;
+    border-color: #ffffff;
+}*/

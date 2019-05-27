@@ -25,3 +25,27 @@ form .filter-wrapper {
 form .form-type-textarea {
     margin-bottom: 0;
 }
+
+#webform-submission-location-contact-us-form-add-form {
+    input[type="text"], input[type="email"], input[type="tel"] {
+        border: none;
+        outline: none;
+        border-radius: 0px;
+        border-bottom: 1px solid $dark-black;
+    }
+    input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+        outline-color: $input-outline-color;
+        border: 1px solid $dark-black;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    textarea {
+        border: 1px solid $dark-black;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    #edit-actions {
+        text-align: center;
+        margin-top: 5px;
+    }
+}

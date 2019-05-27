@@ -4,6 +4,7 @@ global-styling:
     js/popper.min.js: {}
     js/bootstrap.min.js: {}
     js/global.js: {}
+    js/common.js: {}
   css:
     component:
       css/style.css: {}

@@ -72,6 +72,37 @@ html, body,
     flex: 1;
 }
 
-header .container-fluid{
+/*header .container-fluid{
     width: calc(100% - 30px) !important;
+}*/
+
+#block-congruent-footer {
+    ul {
+        @include respond-below(md) {
+            padding-left: 15px;
+        }
+    }
 }
+
+#block-congruent-followus {
+    ul {
+        @include respond-between(sm, md) {
+            padding-left: 15px;
+        }
+    }
+}
+
+.region-footer-second {
+    img {
+        @include respond-between(sm, md) {
+            width: 96%;
+        }
+    }
+}
+
+.col-sm-2dot4{
+    @include respond-below(sm) {
+    width: 100%;
+    flex: inherit !important;
+    max-width: inherit !important;
+    }}

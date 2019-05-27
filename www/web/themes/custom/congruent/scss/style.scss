@@ -125,6 +125,12 @@ a {
     letter-spacing: .7px;
     line-height: 150%;
     text-transform: capitalize;
+    @include respond-below(sm) {
+        font-size: 20px !important;
+    }
+    @include respond-between(sm, md) {
+        font-size: 24px !important;
+    }
 }
 
 .navbar-brand {
@@ -180,18 +186,27 @@ h1.title {
 }
 
 // Side bar
-.sidebar {
+#sidebar_first {
+    h2 {
+        border-bottom: none;
+    }
+}
+
+#sidebar_second {
     h2 {
         border-bottom: none;
         @include respond-between(sm, md) {
             padding-bottom: 0;
         }
     } 
-    border-left: 1px solid $sidebar-border;  
+    border-left: 1px solid $sidebar-border;
+    @include respond-below(sm) {
+        border-left: none;
+    }
 }
 
 // Social icon
-.fa-linkedin-in {
+.fa-linkedin {
     background : $linkedin-icon;
     color: $white;
 }
@@ -199,11 +214,11 @@ h1.title {
     background : $twitter-icon;
     color: $white;
 }
-.fa-facebook-f {
+.fa-facebook {
     background : $facebook-icon;
     color: $white;
 }
-.fa-youtube {
+.fa-youtube-play {
     background : $youtube-icon;
     color: $white;
 }
@@ -355,13 +370,59 @@ ol.breadcrumb {
 }
 
 .bgimg{
-    background:url('../images/screenshot.png') 50% 0 no-repeat fixed;
+    background:url('../images/clients-bg.jpg') 50% 0 no-repeat fixed;
     height:650px;
-    padding:100px 0 0 0;
+    padding:170px 0 0 0;
 }
 
 .newsbg{
     background:url('../images/news-1.jpg') 50% 0 no-repeat fixed;
     height:650px;
     padding:100px 0 0 0;
+}
+
+.usa_img {
+    background: url('../images/location-usa.jpg');
+    //display: none;
+    //width: 100%;
+}
+/*
+#eventslink:hover .usa_img {
+    display:block;
+}
+    */
+
+.location_flag {
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.mapsize {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+    padding: 10px;
+    border: 1px solid $location-map-border;
+    margin: 6px 0;
+    position: relative;
+    background-color: transparent !important;
+}
+.view_map {
+    position: relative;
+    right: 0;
+    bottom: 20px;
+    color: $white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+    float: right;
+}
+
+.field--name-body {
+    img{
+        width : 100%
+    }
 }

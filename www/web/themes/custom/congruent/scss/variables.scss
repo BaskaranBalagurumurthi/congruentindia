@@ -16,6 +16,7 @@ $gray-100: #f8f9fa !default;
 $gray-800: #343a40 !default;
 $link-gray: #222;
 $link-gray-dark: darken($link-gray, 12%);
+$location-map-border: #717171;
 
 //$theme-colors: ( primary: $accent-shade, secondary: $primary-shade, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
 //$brand-primary: $accent-shade;
@@ -66,6 +67,7 @@ $office-location-bg: #404040;
 $map-bg: #f3f3f3;
 $map-title-color: #01363d;
 $menu-border-color: #c5c5c5;
+$input-outline-color: #efeeec;
 
 $font-size-md: 18px;
 
