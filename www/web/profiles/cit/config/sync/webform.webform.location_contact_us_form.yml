@@ -12,7 +12,7 @@ id: location_contact_us_form
 title: 'Location contact us form'
 description: 'Get requirements from End user'
 category: ''
-elements: "location_contact_us_page:\n  '#type': container\n  '#title': 'Location Contact us page'\n  '#open': true\n  '#align_items': flex-end\n  your_name:\n    '#type': textfield\n    '#title': 'Your name'\n    '#title_display': invisible\n    '#size': '4'\n    '#placeholder': 'Your Name'\n    '#required': true\n    '#required_error': 'Please enter your name.'\n  your_email:\n    '#type': email\n    '#title': 'Your Email'\n    '#title_display': invisible\n    '#placeholder': 'Your Email'\n    '#required': true\n    '#required_error': 'Please enter your email.'\n  your_phone:\n    '#type': tel\n    '#title': 'Your Phone'\n    '#title_display': invisible\n    '#placeholder': 'Your phone (Optional)'\n  your_message:\n    '#type': textarea\n    '#title': 'Your Message'\n    '#title_display': invisible\n    '#placeholder': 'Your Message'\n    '#required': true\n    '#required_error': 'Please enter the message'\n  captcha:\n    '#type': captcha\n    '#captcha_type': image_captcha/Image\n    '#captcha_title': 'Verification code is case sensitive'\n  actions:\n    '#type': webform_actions\n    '#title': 'Submit button(s)'\n    '#submit__label': Submit"
+elements: "location_contact_us_page:\n  '#type': container\n  '#title': 'Location Contact us page'\n  '#open': true\n  '#align_items': flex-end\n  your_name:\n    '#type': textfield\n    '#title': 'Your name'\n    '#title_display': invisible\n    '#size': '4'\n    '#placeholder': 'Your Name *'\n    '#required': true\n    '#required_error': 'Please enter your name.'\n  your_email:\n    '#type': email\n    '#title': 'Your Email'\n    '#title_display': invisible\n    '#placeholder': 'Your Email *'\n    '#required': true\n    '#required_error': 'Please enter your email.'\n  your_phone:\n    '#type': tel\n    '#title': 'Your Phone'\n    '#title_display': invisible\n    '#placeholder': 'Your phone (Optional)'\n  your_message:\n    '#type': textarea\n    '#title': 'Your Message'\n    '#title_display': invisible\n    '#placeholder': 'Your Message *'\n    '#required': true\n    '#required_error': 'Please enter the message'\n  actions:\n    '#type': webform_actions\n    '#title': 'Submit button(s)'\n    '#submit__label': Submit\n    '#submit__attributes':\n      class:\n        - btn-dark"
 css: ''
 javascript: ''
 settings:
@@ -39,7 +39,7 @@ settings:
   form_disable_autocomplete: false
   form_novalidate: false
   form_disable_inline_errors: false
-  form_required: true
+  form_required: false
   form_unsaved: false
   form_disable_back: false
   form_submit_back: false
@@ -92,9 +92,9 @@ settings:
   draft_auto_save: false
   draft_saved_message: ''
   draft_loaded_message: ''
-  confirmation_type: page
+  confirmation_type: inline
   confirmation_title: 'THANK YOU'
-  confirmation_message: "We thank you for contacting us, your enquiry has been submitted successfully. Our representatives will get in touch with you within one business day.</h2><br />\r\n<a href=\"http://192.168.61.88\" style=\"color: #c31b00\">Click here</a> to go to the home page."
+  confirmation_message: "We thank you for contacting us, your enquiry has been submitted successfully. Our representatives will get in touch with you within one business day.<br />\r\n<a href=\"http://192.168.61.88\" style=\"color: #c31b00\">Click here</a> to go to the home page."
   confirmation_url: ''
   confirmation_attributes: {  }
   confirmation_back: false
