@@ -138,7 +138,8 @@
     "drupal/bg_image_formatter": "^1.6",
     "drupal/components": "^1.1",
     "drupal/bootstrap_library": "^1.11",
-    "drupal/parallax_bg": "^1.0"
+    "drupal/parallax_bg": "^1.0",
+    "drupal/fontyourface": "^3.2"
   },
   "require-dev": {
     "behat/mink": "~1.7",
