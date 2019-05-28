@@ -1,0 +1,10 @@
+uuid: 7ad49f31-4148-44a0-835c-bd3f16d1bff1
+langcode: en
+status: true
+dependencies: {  }
+id: apply_sans_font
+label: 'Apply Sans font'
+font_url: 'local_fonts://font_sans'
+fallback: ''
+selectors: .fontyourface
+theme: congruent
