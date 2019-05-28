@@ -56,7 +56,7 @@ $superfish-1-background-color-level-fourth: $menu-top-border;
           color: $white;
           outline: 0;
         }
-        &:hover {
+        &:not(.sf-depth-1):hover {
           background: $superfish-1-background-color-level-fourth;
           color: $white;
           outline: 0;
@@ -117,19 +117,26 @@ $superfish-1-background-color-level-fourth: $menu-top-border;
             background: $superfish-1-background-color-level-third;
           }
         }
-        &:hover {
+        &:not(.sf-depth-1):hover {
           background: $superfish-1-background-color-level-fourth;
           outline: 0;
           > ul {
-            top: 36px;
+            top: 0px;
           }
+        }
+        &.sf-depth-1:hover > a {
+          color: $menu-top-border;
         }
         &.sfHover {
           color: $white;
-          background: $superfish-1-background-color-level-fourth;
+          background: $white;
           outline: 0;
-          > ul {
+          &.sf-depth-1 > ul {
             top: 36px;
+          }
+          > a {
+            background: $white;
+            color: $menu-top-border;
           }
         }
       }

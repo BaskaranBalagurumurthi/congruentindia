@@ -179,7 +179,7 @@ $font-family-phonenumber: Open Sans,HelveticaNeue,Helvetica,Arial,sans-serif;
         list-style: none;
         padding: 0px;
         margin: 0px;
-        width: 100%;
+        width: 100% !important;
     }
 
     .collapse.show ul li a {

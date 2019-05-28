@@ -84,6 +84,12 @@ html, body,
     }
 }
 
+#block-congruent-footer2 {
+    ul > li.nav-item {
+        white-space: nowrap;
+    }
+}
+
 #block-congruent-followus {
     ul {
         @include respond-between(sm, md) {
@@ -102,7 +108,14 @@ html, body,
 
 .col-sm-2dot4{
     @include respond-below(sm) {
-    width: 100%;
-    flex: inherit !important;
-    max-width: inherit !important;
-    }}
+        width: 100%;
+        flex: inherit !important;
+        max-width: inherit !important;
+    }
+}
+
+.contact-us {
+   ul > li.nav-link {
+        white-space: nowrap;
+    }
+}

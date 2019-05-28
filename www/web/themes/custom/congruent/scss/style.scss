@@ -408,6 +408,9 @@ ol.breadcrumb {
     margin: 6px 0;
     position: relative;
     background-color: transparent !important;
+    @include respond-between(sm, md) {
+        font-size: $font-size-xs;
+    }
 }
 .view_map {
     position: relative;
@@ -421,8 +424,20 @@ ol.breadcrumb {
     float: right;
 }
 
-.field--name-body {
+/*.field--name-body {
     img{
         width : 100%
+    }
+}*/
+
+h2.contact-title {
+    @include respond-below(sm) {
+        margin-top: 5px;
+    }
+}
+
+.overwrite-href {
+    a {
+        color: $dark-black;
     }
 }
