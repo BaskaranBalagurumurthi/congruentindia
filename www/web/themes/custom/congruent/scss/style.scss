@@ -424,11 +424,11 @@ ol.breadcrumb {
     float: right;
 }
 
-/*.field--name-body {
+.scrum-img {
     img{
         width : 100%
     }
-}*/
+}
 
 h2.contact-title {
     @include respond-below(sm) {
@@ -441,3 +441,39 @@ h2.contact-title {
         color: $dark-black;
     }
 }
+
+#myBar {
+    @include respond-below(md) {
+        display: none;
+    }
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: $menu_bg;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 4px;
+    background: #ff9800;
+    width: 0%;
+  }
+
+  .img-width {
+      img {
+        width: 100%
+      }
+  }
+
+  .pdf-doc {
+      margin: 0 auto;
+      padding: 5px;
+      border: 1px solid $pdf-border;
+      background-color: $pdf-bg;
+      a {
+          color: $content-gray;
+      }
+  }
