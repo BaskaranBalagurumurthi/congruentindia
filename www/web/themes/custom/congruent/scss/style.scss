@@ -368,6 +368,11 @@ ol.breadcrumb {
         text-decoration: underline;
     }
 }
+#block-congruent-breadcrumbs {
+    @include respond-below(sm) {
+        display: none;
+    }
+}
 
 .bgimg{
     background:url('../images/clients-bg.jpg') 50% 0 no-repeat fixed;
