@@ -141,7 +141,8 @@
     "drupal/parallax_bg": "^1.0",
     "drupal/fontyourface": "^3.2",
     "drupal/acobot": "1.x-dev",
-    "drupal/editor_file": "^1.4"
+    "drupal/editor_file": "^1.4",
+    "drupal/search_api_solr": "^2.7"
   },
   "require-dev": {
     "behat/mink": "~1.7",
