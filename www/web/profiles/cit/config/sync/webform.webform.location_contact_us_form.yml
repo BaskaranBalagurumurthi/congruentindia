@@ -92,7 +92,7 @@ settings:
   draft_auto_save: false
   draft_saved_message: ''
   draft_loaded_message: ''
-  confirmation_type: inline
+  confirmation_type: page
   confirmation_title: 'THANK YOU'
   confirmation_message: "We thank you for contacting us, your enquiry has been submitted successfully. Our representatives will get in touch with you within one business day.<br />\r\n<a href=\"http://192.168.61.88\" style=\"color: #c31b00\">Click here</a> to go to the home page."
   confirmation_url: ''
