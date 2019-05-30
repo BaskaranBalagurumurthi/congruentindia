@@ -142,7 +142,8 @@
     "drupal/fontyourface": "^3.2",
     "drupal/acobot": "1.x-dev",
     "drupal/editor_file": "^1.4",
-    "drupal/search_api_solr": "^2.7"
+    "drupal/search_api_solr": "^2.7",
+    "drupal/commerce": "^2.13"
   },
   "require-dev": {
     "behat/mink": "~1.7",
