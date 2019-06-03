@@ -1,6 +1,6 @@
 uuid: 8a094ad0-711e-4ef6-9dca-2c2fcc45a73a
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - drupal_chatbot

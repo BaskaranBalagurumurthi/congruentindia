@@ -1,0 +1,10 @@
+uuid: da54d05d-53f4-4b29-be16-af3c1f34a0d7
+langcode: en
+status: true
+dependencies: {  }
+id: product_import
+label: 'Product Import'
+description: ''
+source_type: 'Drupal 8'
+module: null
+shared_configuration: null

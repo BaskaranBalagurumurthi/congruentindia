@@ -1,0 +1,33 @@
+name: CIT Subtheme
+type: theme
+description: 'SASS Theme for a Bootstrap Barrio SubTheme.'
+# version: VERSION
+# core: 8.x
+base theme: bootstrap_barrio
+
+libraries:
+  - cittheme/global-styling
+libraries-override:
+  bootstrap_barrio/global-styling: false
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  breadcrumb: Breadcrumb
+  highlights: 'Highlights'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_col1: 'Footer first'
+  footer_col2: 'Footer second'
+  footer_col3: 'Footer third'
+  footer_col4: 'Footer fourth'
+  footer_col5: 'Footer fifth'
+
+# Information added by Drupal.org packaging script on 2019-02-25
+version: '8.x-1.9'
+core: '8.x'
+project: 'cittheme'
+datestamp: 1551065297

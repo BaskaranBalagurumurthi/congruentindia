@@ -1,0 +1,63 @@
+//Header Logo style
+.congruent-logo {
+    background-position: -1px 0;
+    width: 293px;
+    height: 60px;
+    
+}
+//Navigation Menu
+.navbar-brand {
+    background: url('../../../../sites/default/files/top-banner-new-sprites.png');
+    background-position: 0px 0px;
+    width: 295px;
+    height: 61px;
+    @include respond-below(md) {
+        background-color: $menu-top-border;
+        background-position: -9px -341px;
+        width: 259px;
+        height: 53px;
+    }
+ }
+
+//Phone number block style
+.phonenumber {
+    position: relative;
+    color: #fff !important;
+    font-weight: 600;
+    top: 21px;
+    margin: auto;
+    font-size: 10pt;
+    text-align: center;
+    width: 487px;
+    background-color: #545454;
+    padding: 6px;
+    border-radius: 18px;
+    font-family: 'Open Sans',HelveticaNeue,Helvetica,Arial,sans-serif;
+
+    a:hover,
+    a:focus,
+    a:link,
+    .link:hover,
+    .link:focus {
+        color: $white;
+        text-decoration: none;
+    }
+
+    @media (max-width: 1160px) {
+        font-size: 9pt;
+    }
+}
+
+//Partner Logo
+.partners-logo {
+    background: url('../../../../sites/default/files/top-banner-new-sprites.png');
+    background-position: -160px -85px;
+    width: 291px;
+    height: 55px;
+ }
+//Hide Partner log and Phone number
+ .hide-xs-md {
+    @include respond-below(md) {
+        display: none !important;
+    }
+ }

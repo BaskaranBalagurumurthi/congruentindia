@@ -1,0 +1,9 @@
+selected_pages: null
+width: device-width
+height: device-height
+initial_scale: !!float 1
+minimum_scale: !!float 1
+maximum_scale: !!float 1
+user_scalable: true
+_core:
+  default_config_hash: Bdmn7AJZQhdeVGez9tvos8sG2G9lg4EO1VnwOtZvawQ
